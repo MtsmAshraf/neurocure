@@ -1,0 +1,153 @@
+{
+  "Header": {
+    "Home": "Home",
+    "Services": "Leistungen",
+    "OnlineTermine": "Online-Termine",
+    "DieOrdination": "Die Ordination",
+    "Pages": "Seiten",
+    "ContactUs": "Kontaktieren Sie uns",
+    "Language": "Sprache"
+  },
+  "Footer": {
+    "Info": "Information",
+    "Phone": "Telefon",
+    "Note": "(Bitte geben Sie bei Überweisungen stets die Rechnungsnummer im Betreff an.)",
+    "Datenschutz": "Datenschutz"
+  },
+  "BookBtn": {
+    "Text":"Termin buchen",
+    "Modal": {
+      "Heading": "Besuchsart auswählen",
+      "First": "Erstbesuch",
+      "FollowUp": "Nachsorge"
+    }
+  },
+  "FloatingContact": {
+    "Text": "Kontaktieren Sie uns",
+    "Telemedizin": "Telemedizin"
+  },
+  "HomePage": {
+    "OnlineTermine": {
+      "Heading": "Online-Termine",
+      "Emergency": {
+        "DrName": "Dr.in Fairoz Mohammed",
+        "P1": "Wahlärztin, keine Kassen",
+        "Btn": "Dringender Termin",
+        "BtnSpan": "gilt für Montag–Freitag",
+        "P2": "Sie können einen schnellen Termin (Mo–Fr) nach Umorganisation erhalten",
+        "P2Span": "wenn eine der folgenden Bedingungen zutrifft",
+        "Li": {
+          "0": "Schwangerschaft",
+          "1": "Kind mit auffälligen Schilddrüsenwerten",
+          "2": "TSH < 0,1 mIU/L oder TSH > 10 mIU/L",
+          "3": "Akute Halsschmerzen oder Schwellung am Hals mit auffälligen Schilddrüsenwerten"
+        },
+        "P3Span": "Bitte bringen Sie Ihre aktuellen Laborbefunde vom Hausarzt mit (TSH, fT3, fT4, TPO-AK, Tg-AK, TRAK sowie komplettes Blutbild)",
+        "P4": "Hinweis: Dieses Angebot gilt an",
+        "P4Span": "Werktagen (Mo–Fr)",
+        "P5": "Bitte vereinbaren Sie einen Termin über",
+        "P52": "oder",
+        "P53": ", in der Sie kurz Ihre Krankengeschichte schildern, damit ein Termin festgelegt werden kann"
+      },
+      "Appts": {
+        "0": {
+          "day": "Mittwochs",
+          "Uhr": "Uhr",
+          "address": "Mariahilfer Straße 95/19, Stiege 1, 1060 Wien (U3 Zieglergasse)"
+        },
+        "1": {
+          "day": "Freitags",
+          "Uhr": "Uhr",
+          "address": "Leegasse 2/8, 1140 Wien"
+        }
+      },
+      "Book": "Termin buchen"
+    },
+    "Services": {
+      "Heading": "Unsere Leistungen",
+      "Cards": {
+        "0": {
+          "Title": "Eine Blutabnahme ist in unserer Ordination möglich",
+          "p": ""
+        },
+        "1": {
+          "Title": "Ultraschall Hals",
+          "p": ""
+        },
+        "2": {
+          "Title": "Schilddrüsen-szintigraphie",
+          "p": "Schilddrüsenszintigraphie bei Bedarf in Kooperation mit spezialisierten Zentren"
+        },
+        "3": {
+          "Title": "Feinnadelpunktion",
+          "p": "Gezielte Gewebeentnahme aus der Schilddrüse zur weiteren Abklärung von Knoten und Gewebeveränderungen"
+        },
+        "4": {
+          "Title": "Abklärung & Behandlung von Funktionsstörungen",
+          "p": ""
+        },
+        "5": {
+          "Title": "Schilddrüse & Schwangerschaft",
+          "p": "achgerechte Betreuung und Kontrolle der Schilddrüsenfunktion bei Kinderwunsch, während der Schwangerschaft sowie nach der Entbindung"
+        },
+        "6": {
+          "Title": "Beurteilung von Schilddrüsenknoten",
+          "p": "Gründliche Untersuchung und Abklärung von Knoten in der Schilddrüse zur weiteren Diagnostik und Therapieplanung"
+        },
+        "7": {
+          "Title": "Aufklärung zu Therapieoptionen",
+          "p": "Umfassende Information über mögliche Behandlungen: Operation, Radiojodtherapie oder medikamentöse Therapie"
+        },
+        "8": {
+          "Title": "Nachsorge nach Schilddrüsenoperation",
+          "p": "Langfristige Kontrolle nach operativer Entfernung der Schilddrüse bei Patient:innen mit Schilddrüsenkrebs"
+        },
+        "9": {
+          "Title": "Kinder mit Schilddrüsen-funktionsstörungen",
+          "p": "Diagnostik und Therapie von Schilddrüsenerkrankungen bei Kindern (ab 5 Jahren)"
+        }
+      },
+      "ReadMore": "Weitere Informationen"
+    },
+    "Contact": {
+      "Heading": "Kontakt"
+    },
+    "Telemedizin": {
+      "Heading": "Telemedizin",
+      "p": "Erstkonsultation und Verlaufskontrollen zur Therapieanpassung für Patient:innen,",
+      "span": " die die Betreuung per Videosprechstunde bevorzugen.",
+      "ContactUs": "Kontaktieren Sie uns für Telemedizin" 
+    },
+    "Prices": {
+      "Heading": "Unsere Preise",
+      "Cards": {
+        "0": {
+          "H3": "Erstuntersuchung",
+          "P": "(30 Minuten)"
+        },
+        "1": {
+          "H3": "Kontrolluntersuchung",
+          "P": "(20 Minuten)"
+        },
+        "2": {
+          "H3": "Feinnadelpunktion der Schilddrüse + Ultraschal"
+        },
+        "3": {
+          "H3": "Telemedizin",
+          "P": "(30 Minuten)"
+        }
+      }
+    }
+  },
+  "Blog": {
+    "Heading": "Blog",
+    "MorePosts": "Weitere Beiträge ansehen",
+    "ReadMore": "Weiterlesen"
+  },
+  "DieOrdination": {
+    "Heading": "Die Ordination"
+  },
+  "Datenschutz": {
+    "Heading": "Datenschutz"
+  }
+}

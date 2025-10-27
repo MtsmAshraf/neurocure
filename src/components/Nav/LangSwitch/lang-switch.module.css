@@ -1,0 +1,42 @@
+.langSwitch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: var(--main-shadow);
+    direction: ltr !important;
+    font-size: 14px;
+    text-decoration: none;
+    /* width: 30px;
+    height: 30px;
+    border-radius: 50%; */
+    overflow: hidden;
+    background-color: var(--bg-color);
+    background-color: #fff;
+    border: 1px solid var(--main-color);
+    height: 25px;
+}
+.langSwitch, .langSwitch:focus, .langSwitch:focus-visible, .langSwitch:active{
+    border: 1px solid var(--main-color);
+}
+.langSwitch span{
+    /* padding: 3px 10px; */
+    width: calc(100% / 3);
+    /* color: var(--main-color); */
+    /* background-color: var(--bg-color); */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 2px 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.langSwitch span:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.langSwitch span.active{
+    background-color: var(--main-color);
+    color: #fff;
+}

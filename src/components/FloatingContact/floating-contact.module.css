@@ -1,0 +1,119 @@
+.floatingContact{
+    position: fixed;
+    right: 0px;
+    top: calc(130px + 40px);
+    z-index: 20;
+    border-radius: 8px;
+}
+.floatingContact h4{
+    background-color: #fff;
+    color: var(--main-color);
+    border-right: none;
+    border-radius: 8px 0px 0px 8px;
+    padding: 5px 10px;
+    transition: var(--main-transition);
+    overflow: hidden;
+    text-wrap: nowrap;
+    font-weight: normal;
+    box-shadow: var(--sec-shadow);
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    width: fit-content;
+    margin-right: 0;
+    margin-left: auto;
+}
+.floatingContact h4 svg{
+    font-size: 20px;
+}
+.floatingContact ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;   
+    margin-top: 5px;
+    transition: var(--main-transition);
+}
+.floatingContact a{
+    color: #fff;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.floatingContact li:nth-of-type(1) a{
+    margin-right: 5px;
+    background-color: #25d366;
+}
+.floatingContact li:nth-of-type(2) a{
+    margin-right: 5px;
+    background-color: #c71610;
+}
+.floatingContact li:nth-of-type(3) a{
+    margin-right: 5px;
+    background-color: var(--main-color);
+}
+.floatingContact li:nth-of-type(4) a{
+    background-color: #fff;
+    color: var(--main-color);
+    border-right: none;
+    border-radius: 8px 0px 0px 8px;
+    padding: 5px 10px;
+    transition: var(--main-transition);
+    overflow: hidden;
+    text-wrap: nowrap;
+    font-weight: normal;
+    box-shadow: var(--sec-shadow);
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    width: fit-content;
+    height: unset;
+    margin-right: 0;
+    margin-left: auto;
+}
+@media (max-width: 992px) {
+    .floatingContact{
+        bottom: unset;
+        top: calc(50% + 120px);
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+    .floatingContact h4,
+    .floatingContact li:nth-of-type(4) a span{
+        font-size: 14px;
+    }
+}
+@media (max-width: 767px) {
+    .floatingContact{
+        top: calc(50% + 110px);
+        width: 40px;
+    }
+    .floatingContact li:nth-of-type(4) a{
+        transform: translateX(calc(100% - 40px));
+    }
+    .floatingContact li:nth-of-type(4) a:hover{
+        transform: translateX(0px);
+    }
+    .floatingContact h4{
+        margin-right: auto;
+        margin-left: auto;
+        /* transform: translateX(calc(100% - 40px)); */
+    }
+    .floatingContact h4:hover{
+        transform: translateX(calc(-100% + 40px));
+    }
+    .floatingContact a{
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+    }
+}

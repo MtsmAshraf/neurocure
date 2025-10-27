@@ -1,0 +1,107 @@
+.blogPost{
+    padding-top: 30px;
+    margin-top: 248px;
+    padding-bottom: 100px;
+    background-image: url("../../../../../public/images/blog-post-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    position: relative;
+    isolation: isolate;
+}
+@media (max-width: 1200px) {
+    .blogPost{
+        /* margin-top: 2482px; */
+        margin-top: 239px;
+    }
+}
+@media (max-width: 992px) {
+    .blogPost{
+        margin-top: 239px;
+    }
+}
+@media (max-width: 767px) {
+    .blogPost{
+        margin-top: 189px;
+    }
+}
+.blogPost .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color);
+    opacity: 0.97;
+    z-index: -1;
+    backdrop-filter: blur(10px);
+    /* display: none; */
+}
+.blogPost > div{
+    width: 800px;
+    max-width: 100%;
+}
+.blogPost .postTitle{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.blogPost .postInfo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.blogPost .postInfo span:nth-child(2){
+    font-weight: bold;
+}
+.blogPost .postImg{
+    width: 100%;
+    aspect-ratio: 2/1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: var(--main-shadow);
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.blogPost .postImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.blogPost .postBody{
+    line-height: 1.6;
+    text-align: justify;
+}
+.blogPost .allPostsLink{
+    display: flex;
+}
+
+.allPostsLink{
+    color: var(--main-color);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    transition: var(--main-transition);
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: var(--main-shadow);
+    border: 1px solid var(--main-color);
+}
+.allPostsLink:hover{
+    gap: 20px;
+    background-color: var(--main-color);
+    color: #fff;
+}
+@media (max-width: 767px) {
+    .blogPost .postTitle{
+        font-size: 30px;
+    }   
+}

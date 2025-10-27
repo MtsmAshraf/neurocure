@@ -1,0 +1,153 @@
+{
+  "Header": {
+    "Home": "Home",
+    "Services": "Services",
+    "OnlineTermine": "Online Appointments",
+    "DieOrdination": "Practice",
+    "Pages": "Pages",
+    "ContactUs": "Contact Us",
+    "Language": "Language"
+  },
+  "Footer": {
+    "Info": "Information",
+    "Phone": "Phone",
+    "Note": "(Please always include the invoice number in the subject line when making transfers)",
+    "Datenschutz": "Privacy Policy"
+  },
+  "BookBtn": {
+    "Text":"Book Appointment",
+    "Modal": {
+      "Heading": "Select Visit Type",
+      "First": "First Visit",
+      "FollowUp": "Follow-up"
+    }
+  },
+  "FloatingContact": {
+    "Text": "Contact Us",
+    "Telemedizin": "Telemedicine"
+  },
+  "HomePage": {
+    "OnlineTermine": {
+      "Heading": "Online appointments",
+      "Emergency": {
+        "DrName": "Dr. Fairoz Mohammed",
+        "P1": "Private doctor, no public health insurance accepted",
+        "Btn": "Urgent appointment",
+        "BtnSpan": "valid Monday–Friday",
+        "P2": "You can get a fast-appointment (Mon–Fri) after schedule reorganization",
+        "P2Span": "if one of the following conditions applies",
+        "Li": {
+          "0": "Pregnancy",
+          "1": "Child with abnormal thyroid values",
+          "2": "TSH < 0.1 mIU/L or TSH > 10 mIU/L",
+          "3": "Acute sore throat or swelling in the neck and abnormal thyroid values"
+        },
+        "P3Span": "Please bring your current lab results from your family doctor (TSH, fT3, fT4, TPO-Ab, Tg-Ab, TRAb as well as a complete blood count)",
+        "P4": "Note: This offer is",
+        "P4Span": "valid on weekdays (Mon–Fri)",
+        "P5": "Please make an appointment",
+        "P52": "or",
+        "P53": ", briefly describing your medical condition so that an appointment can be arranged."
+      },
+      "Appts": {
+        "0": {
+        "day": "Wendesdays",
+        "Uhr": "",
+        "address": "Mariahilfer Straße 95/19, Staircase 1, 1060 Vienna (U3 Zieglergasse station)"
+        },
+        "1": {
+          "day": "Fridays",
+          "Uhr": "",
+          "address": "Leegasse 2/8, 1140 Vienna"
+        }
+      },
+      "Book": "Book Appointments"
+    },
+    "Services": {
+      "Heading": "Our Services",
+      "Cards": {
+        "0": {
+          "Title": "Blood Sampling",
+          "p": "Blood sampling is available in our clinic"
+        },
+        "1": {
+          "Title": "Ultrasound neck",
+          "p": ""
+        },
+        "2": {
+          "Title": "Thyroid Scintigraphy",
+          "p": "Abklärung und Behandlung von Funktionsstörungen der Schilddrüse mit modernen nuklearmedizinischen Verfahren"
+        },
+        "3": {
+          "Title": "Targeted tissue sampling",
+          "p": "Targeted tissue sampling from the thyroid for further evaluation of nodules and tissue changes"
+        },
+        "4": {
+          "Title": "Evaluation and treatment of functional disorders",
+          "p": ""
+        },
+        "5": {
+          "Title": "Thyroid and pregnancy",
+          "p": "professional care and monitoring of thyroid function during pregnancy"
+        },
+        "6": {
+          "Title": "Management of thyroid nodules",
+          "p": "thorough examination and evaluation of nodules in the thyroid for further diagnostics and therapy planning"
+        },
+        "7": {
+          "Title": "Information therapy options",
+          "p": "comprehensive information about possible treatments such as surgery, radioiodine therapy, or medication therapy"
+        },
+        "8": {
+          "Title": "Postoperative follow-up after thyroid surgery",
+          "p": "continuous monitoring and support following surgical removal of the thyroid gland"
+        },
+        "9": {
+          "Title": "Children (from 5 years) with thyroid dysfunction",
+          "p": "individualized diagnostics and therapy for abnormal thyroid values in childhood"
+        }
+      },
+      "ReadMore": "More Information"
+    },
+    "Contact": {
+      "Heading": "Contact Us"
+    },
+    "Telemedizin": {
+      "Heading": "Telemedicine",
+      "p": "Initial consultation and follow-up for therapy adjustment",
+      "span": " for patients who prefer video calls.",
+      "ContactUs": "Contact Us for Telemedicine" 
+    },
+    "Prices": {
+      "Heading": "Our Prices",
+      "Cards": {
+        "0": {
+          "H3": "First visit",
+          "P": "(30 minutes)"
+        },
+        "1": {
+          "H3": "Follow-up visit",
+          "P": "(20 minutes)"
+        },
+        "2": {
+          "H3": "Fine-needle aspiration + Ultrasound (thyroid biopsy)"
+        },
+        "3": {
+          "H3": "Telemedicine",
+          "P": "(30 minutes)"
+        }
+      }
+    }
+  },
+  "Blog": {
+    "Heading": "Blog",
+    "MorePosts": "See More Posts",
+    "ReadMore": "Read More"
+  },
+  "DieOrdination": {
+    "Heading": "Practice"
+  },
+  "Datenschutz": {
+    "Heading": "Privacy Policy"
+  }
+}

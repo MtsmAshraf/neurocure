@@ -1,0 +1,30 @@
+.socialUl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.socialUl a{
+    width: 50px;
+    height: 50px;
+    background-color: #c8c5cd;
+    color: #fff;
+    transition: var(--main-transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.socialUl svg{
+    width: 25px;
+    height: 25px;
+}
+.socialUl li:nth-of-type(1) a{
+    background-color: var(--sec-color);
+}
+.socialUl li:nth-of-type(2) a{
+    background-color: var(--third-color);
+}
+.socialUl li:nth-of-type(3) a{
+    background-color: var(--main-color);
+}

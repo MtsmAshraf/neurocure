@@ -1,0 +1,141 @@
+/* @import "tailwindcss"; */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+:root {
+  --bg-color: #fcfcfc;
+  --foreground: #171717;
+  --main-color: #498eb5;
+  --darker-color: #20597b;
+  --sec-color: #ed8c2d;
+  --third-color: #d2642a;  
+  --logo-header-bg: #2f2e5a;
+  --text-color: #000;
+  --slider-bg: #d0d7de;
+  --main-shadow: 0px 4px 14px -3px #e1e1e1;
+  --section-shadow: 0px -10px 20px -3px #eee  ;
+  --inset-shadow: 0px 0px 10px -3px var(--main-color) inset;
+  --sec-shadow: 0px 4px 14px -6px #6a6a6a;
+  --main-transition: all 0.3s 0s cubic-bezier(.47,.65,.33,.87);
+  --main-gradient: linear-gradient(90deg, var(--main-color), #68a8cc, var(--main-color));
+
+  --features-card-bg: rgba(8, 7, 7, 0.2);
+  --main-card-animation-color: #38207f;
+  --card-bg-semi-trans: #eaeaeac2;
+  --important-text-color: var(--main-color);
+
+  --animation-transition: all 0.8s 0s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+  --text-shadow: 0px 1px 2px #000;
+
+}
+
+body{
+  background-color: var(--bg-color);
+  /* background-image: url("../../../public/images/body-bg.svg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 248px;
+}
+
+@media (max-width: 1200px) {
+    html{
+      scroll-padding-top: 239px;
+      }
+}
+@media (max-width: 992px) {
+    html{
+        scroll-padding-top: 239px;
+    }
+}
+@media (max-width: 767px) {
+    html{
+        scroll-padding-top: 189px;
+    }
+}
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+img, video{
+  max-width: 100%;
+}
+button, button:focus, button:focus-visible, button:active{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+::selection{
+  background-color: var(--main-color);
+  color: #fff;
+}
+::-webkit-scrollbar{
+  background-color: #fff;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+  background-color: #fff;
+}
+section{
+  margin-bottom: 30px;
+}
+.book-btn{
+    background-image: var(--main-gradient);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    transition: var(--main-transition);
+    transition-duration: 0.2s;
+    /* font-size: 14px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.book-btn svg{
+  font-size: 20px;
+}
+button.fixed{
+  background-color: red !important;
+  border-radius: 10px !important;
+}
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+@media (min-width: 767px) {
+  .container{
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container{
+    width: 985px;
+  }
+}
+@media (min-width: 1200px) {
+  .container{
+    width: 1200px;
+  }
+}

@@ -1,0 +1,98 @@
+.header{
+    position: sticky;
+    width: 100dvw;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    left: 0;
+    top: -104px;
+    z-index: 14;
+    background-color: #ffffff36;
+    backdrop-filter: blur(30px);
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    box-shadow: var(--main-shadow);
+}
+.header.ar{
+    direction: rtl;
+    /* font-family: "Tajawal", sans-serif; */
+}
+.header > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header > div .logo{
+    width: 400px;
+    /* height: 70px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header > div .logo img{
+    object-fit: contain;
+    height: 100%;
+}
+.header .bars{
+    color: var(--main-color);
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header > div .smCtrl{
+    display: none;
+}
+.header .close{
+    color: #fff;
+    width: 26px;
+    cursor: pointer;
+    background-color: var(--third-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 30px;
+    right: -150px;
+    padding: 4px 10px;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid var(--third-color);
+    transition: var(--main-transition);
+    transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.header .close.shown{
+    right: 190px;
+}
+@media (max-width: 1200px) {
+    .header .bookBtn{
+        display: none;
+    }
+    .header > div .logo{
+        width: 320px;
+    }
+}
+@media (max-width: 992px) {
+   .header{
+    padding-bottom: 10px;
+   }
+    .header > div .smCtrl{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 100%;
+        margin-top: 10px;
+        gap: 20px;
+    }
+    .header > div .logo{
+        width: 220px;
+    }
+}
+@media (max-width: 767px) {
+}
