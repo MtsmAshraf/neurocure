@@ -1,8 +1,6 @@
 "use client"
 import React from 'react'
 import styles from "./hero.module.css"
-import gsap from 'gsap'
-import { useGSAP } from '@gsap/react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Navigation, Pagination } from 'swiper/modules'
 import Image from 'next/image'
@@ -27,37 +25,10 @@ const Hero = ({
 } : {
   lo: string
 }) => {
-   useGSAP(() => {
-    gsap.from(".stagger-text", {
-        y: 70,
-        opacity: 0,
-        // ease: "circ",
-        duration: 0.8, 
-        delay: 0.4,
-        // stagger: 0.1 // this means the delat betweem the staggered elememts is 0.1
-        stagger: {
-            amount: 0.3,
-            grid: [1,1],
-            axis: "y",
-            // ease: "circ.inOut",
-            // from: "random"
-        }
-    })
-    gsap.from("#hero-img", {
-        x: -100,
-        opacity: 0,
-        filter: "blur(20px)",
-        // ease: "circ",
-        duration: 0.6,
-        delay: 0.6
-    })
-     }, [])
-
   return (
     <section className={lo === "ar" ? styles.hero + " " + styles.ar : styles.hero} id='hero'>
         <div className={styles.swiper}>
             <Swiper
-                loop
                 autoplay={{
                     delay: 10000
                 }}

@@ -114,4 +114,7 @@
         max-width: 100%;
         width: 100%;
     }
+    .contact > div:nth-child(2) .info .address span{
+        width: 100px !important;
+    }
 }
