@@ -9,7 +9,7 @@
 }
 .about .person{
     /* width: 60%; */
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 .about .person:not(:first-of-type){
     border-top: 1px solid #ddd;
@@ -71,12 +71,12 @@
 }
 .about .person .textInfo{
     display: flex;
+    flex-direction: column;
     gap: 20px;
     /* align-items: center; */
 }
 .about .person .textInfo > div{
     margin-bottom: 10px;
-    flex: 1;
 }
 .about .person .textInfo > div h3{
     background-color: var(--main-color);
@@ -87,6 +87,22 @@
     font-weight: normal;
     margin-bottom: 10px;
     text-align: center;
+    font-size: 20px;
+}
+.about .person .textInfo > div:nth-child(1) ul{
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 20px;
+}
+.about .person .textInfo > div:nth-child(1) ul li{
+    width: calc((100% - 20px) / 2);
+}
+.about .person .textInfo > div:nth-child(2){
+    display: flex;
+    gap: 20px;
+}
+.about .person .textInfo > div:nth-child(2) > div{
+    flex: 1;
 }
 .about .person .textInfo > div ul li{
     margin-bottom: 20px;
@@ -136,6 +152,16 @@
 }
 @media (max-width: 600px) {
     .about .person .textInfo{
+        flex-direction: column;
+    }
+    
+    .about .person .textInfo > div:nth-child(1) ul{
+        flex-direction: column;
+    }
+    .about .person .textInfo > div:nth-child(1) ul li{
+        width: 100%;
+    }
+    .about .person .textInfo > div:nth-child(2){
         flex-direction: column;
     }
 }

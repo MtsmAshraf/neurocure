@@ -9,6 +9,7 @@
     border-left: 1px solid var(--main-color);
     transition: var(--main-transition);
     transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    display: none;
 }
 .verticalNav.shown{
     transform: translateX(0%);

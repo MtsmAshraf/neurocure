@@ -1,13 +1,11 @@
 /* @import "tailwindcss"; */
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
 :root {
-  --bg-color: #ebebeb;
-  --foreground: #171717;
+  --bg-color: #f4f4f4;
   --main-color: #498eb5;
   --darker-color: #20597b;
   --sec-color: #ed8c2d;
   --third-color: #d2642a;  
-  --logo-header-bg: #2f2e5a;
   --text-color: #000;
   --slider-bg: #d0d7de;
   --main-shadow: 0px 4px 14px -3px #e1e1e1;
