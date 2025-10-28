@@ -17,30 +17,13 @@
     min-height: calc(100vh - 150px);
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: var(--slider-bg);
 }
 .hero .slide.main{
     align-items: flex-end;
     justify-content: flex-start;
     padding-bottom: 80px;
-}
-.hero .slide .img{
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-.hero .slide .img img,
-.hero .slide .img video{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-.hero .slide:not(.main) .img{
-    width: 50%;
 }
 .hero .swiper > button{
     /* position: absolute; */
@@ -83,202 +66,10 @@
 .hero .heroPagination span{
     background-color: #fff;
 }
-.hero .slide .overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    z-index: -1;
-    display: none;
-    opacity: 0.5;
-}
-.hero .text{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 10px;
-    padding: 20px;
-}
-.hero .slide.main .text{
-    background-color: #373737e4;
-}
-.hero .slide:not(.main) .text{
-    width: 50%;
-}
-.hero .text h2{
-    font-weight: bold;
-    max-width: 100%;
-    text-shadow: var(--text-shadow);
-    z-index: 2;
-    font-size: 50px;
-}
-.hero .slide.main .text h2{
-    text-align: center;
-    color: #fff;
-}
-.hero .slide:not(.main) .text h2{
-    color: var(--darker-color);
-    /* color: var(--main-color); */
-    text-align: center;
-    /* text-shadow: none; */
-}
-.hero .slide.main .text p{
-    font-weight: bold;
-}
-.hero .text p{
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.hero .text h4{
-    color: #fff;
-    font-size: 18px;
-    text-align: center;
-    font-weight: normal;
-}
-.hero .text .btns{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 20px;
-}
-.hero .text .btns a{
-    padding: 8px 20px;
-    border-radius: 8px;
-    box-shadow: var(--main-shadow);
-    transition: var(--main-transition);
-    border: 1px solid var(--main-color);
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.hero .text .btns a:first-child{
-    background-image: var(--main-gradient);
-    color: #fff;
-}
-.hero .text .btns a:last-child{
-    color: var(--main-color);
-    background-image: linear-gradient(90deg, white 0%, white 100%);
-}
-.hero .text .btns a:last-child:hover{
-    background-image: var(--main-gradient);
-    color: #fff;
-}
-.hero .text .img{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.hero .text .appts{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    border-radius: 10px;
-    background-color: #ffffff7d;
-    min-height: 130px;
-    max-width: 100%;
-    width: 100% ;
-    flex-wrap: wrap;
-}
-.hero .text .appts > div{
-    width: 50%;
-    padding: 20px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 5px;
-    /* justify-content: center; */
-}
-.hero .text .appts > div:nth-child(2){
-    border-left: 1px solid #fff;
-}
-.hero .text .appts > div h4{
-    font-size: 20px;
-}
-.hero .text .appts > div h4{
-}
-.hero .text .appts > div h5{
-    font-weight: normal;
-    font-size: 16px;
-}
-@media (max-width: 992px) {
-    .hero .text h2{
-        font-size: 40px;
-    }
-    .hero .text p{
-        font-size: 18px;
-    }
-    .hero .text .btns{
-        justify-content: center;
-    }
-}
 @media (max-width: 767px) {
-    .hero .slide:not(.main){
-        flex-direction: column-reverse;
-        /* padding-bottom: 80px; */
-    }
-    .hero .slide:not(.main) .text{
-        width: 100%;
-        height: calc((50vh - 70px) / 2);;
-    }
-    .hero .slide:not(.main) .img{
-        width: 100%;
-        height: 50%;
-    }
-    .hero .text h2{
-        font-size: 22px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .hero .text p{
-        font-size: 20px;
-    }
-    .hero .text h4{
-        font-size: 16px;
-    }
-    .hero .text .btns a,
-    .hero .text .btns button{
-        font-size: 14px;
-        padding: 8px 15px;
-        white-space: nowrap;
-    }
     .hero .heroPagination{
         /* bottom: 60px; */
         transform: translateX(-50%) translateY(50%);
-    }
-    /* .hero .swiper > button:first-of-type{
-        left: 10px;
-    }
-    .hero .swiper > button:last-of-type{
-        right: 10px;
-    } */
-    .hero .text .appts{
-        flex-direction: column;
-    }
-    .hero .text .appts > div{
-        width: 100%;
-    }
-    .hero .text .appts > div:nth-child(2){
-        border-left: none;
-        border-top: 1px solid #fff;
-    }
-    .hero .text .appts > div span{
-        font-size: 14px;
-    }
-    .hero .text .appts > div h4{
-        font-size: 14px;
-    }
-    .hero .text .appts > div h5{
-        font-weight: normal;
-        font-size: 14px;
     }
     .hero .swiper > button{
         font-size: 14px;

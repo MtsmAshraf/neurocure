@@ -28,7 +28,6 @@ export default async function Home({
         {/* <Telemedizin /> */}
         {/* <Faq /> */}
         <About />
-        <Contact lo={locale} />
       </main>
   );
 }

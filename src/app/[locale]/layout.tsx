@@ -9,6 +9,7 @@ import Footer from "@/components/Footer/Footer";
 import icon from "./favicon.ico"
 // import Script from "next/script";
 import { Montserrat } from "next/font/google";
+import Contact from "@/components/Contact/Contact";
 // import FloatingContact from "@/components/FloatingContact/FloatingContact";
 // import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
 // import Prices from "@/components/Prices/Prices";
@@ -77,6 +78,7 @@ export default async function RootLayout({
           {/* <Prices /> */}
           {/* <FloatingBooking />
           <FloatingContact /> */}
+          <Contact lo={locale}  />
           <Footer lo={locale}></Footer>
         </NextIntlClientProvider>
       </body>

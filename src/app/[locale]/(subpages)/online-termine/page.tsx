@@ -12,7 +12,6 @@ const OnlineTermine = () => {
       <section className={styles.onlineTermine}>
         <Termine />
       </section>
-      <Telemedizin />
     </Provider>
   )
 }

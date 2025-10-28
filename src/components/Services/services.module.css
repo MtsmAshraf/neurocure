@@ -3,8 +3,8 @@
     padding-bottom: 100px;
 }
 .services > div:first-of-type{
-    position: sticky;
-    top: 40px;
+    /* position: sticky;
+    top: 40px; */
     margin-bottom: 0 !important;
     z-index: 2;
 }
@@ -29,7 +29,7 @@
     color: #fff;
     text-align: center;
     position: sticky;
-    top: 103px;
+    top: 36px;
 }
 .services .section .cards{
     display: grid;
@@ -104,11 +104,11 @@
     gap: 20px;
 }
 @media (max-width: 992px) {
-    .services > div:first-of-type{
+    /* .services > div:first-of-type{
         top: 50px;
-    }
+    } */
     .services .section h2{
-        top: 113px;
+        top: 50px;
     }
     
 }
@@ -116,11 +116,11 @@
     .services .card{
         text-align: center;
     }
-    .services > div:first-of-type{
+    /* .services > div:first-of-type{
         top: 30px;
-    }
+    } */
     .services .section h2{
-        top: 76px;
+        top: 31px;
         font-size: 24px;
     }
 }

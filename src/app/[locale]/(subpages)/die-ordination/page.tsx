@@ -12,7 +12,6 @@ const DieOrdination = () => {
         <OrdinationComponent />
       </section>
         <Termine />
-        <Telemedizin />
     </>
   )
 }
