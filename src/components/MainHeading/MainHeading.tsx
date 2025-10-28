@@ -9,9 +9,7 @@ const MainHeading = ({
 }) => {
   return (
     <div id='main-heading' className={inverted ? styles.mainHeading + " " + styles.inverted : styles.mainHeading}>
-        <h2>
-            {children}
-        </h2>
+      {children}
     </div>
   )
 }

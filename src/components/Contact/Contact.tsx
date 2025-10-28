@@ -22,9 +22,11 @@ const Contact = ({
   return (
     <section className={classNames.join(" ")}>
         <MainHeading>
-            {
-                t("Heading")
-            }
+            <h2>
+                {
+                    t("Heading")
+                }
+            </h2>
         </MainHeading>
         <div className="container">
             <div className={styles.info}>

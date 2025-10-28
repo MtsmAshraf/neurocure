@@ -10,7 +10,9 @@ const About = () => {
   return (
     <section className={styles.about}>
         <MainHeading>
+          <h2>
             About Us
+          </h2>
         </MainHeading>
         <div className="container">
           <div className={styles.person}>

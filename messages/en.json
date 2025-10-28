@@ -64,47 +64,112 @@
       "Book": "Book Appointments"
     },
     "Services": {
-      "Heading": "Our Services",
-      "Cards": {
+      "Heading": "Services",
+      "Sections": {
         "0": {
-          "Title": "Blood Sampling",
-          "p": "Blood sampling is available in our clinic"
+          "Heading": "Common Neurological Conditions",
+          "Cards": {
+            "0": {
+              "Title": "Stroke",
+              "p": "Sudden weakness, numbness, or difficulty speaking or seeing."
+            },
+            "1": {
+              "Title": "Migraine",
+              "p": "Recurrent one-sided headaches with nausea or light sensitivity."
+            },
+            "2": {
+              "Title": "Multiple Sclerosis (MS)",
+              "p": "Immune-mediated disease of the brain or spinal cord causing weakness or visual imbalance."
+            },
+            "3": {
+              "Title": "Parkinson’s Disease",
+              "p": "Tremor, slow movement, muscle stiffness, and balance issues."
+            },
+            "4": {
+              "Title": "Epilepsy",
+              "p": "Recurrent electrical discharges causing seizures or loss of consciousness."
+            },
+            "5": {
+              "Title": "Peripheral Neuropathy",
+              "p": "Numbness, tingling, or pain in hands or feet from nerve damage."
+            },
+            "6": {
+              "Title": "Trigeminal Neuralgia",
+              "p": "Brief but intense facial pain episodes."
+            },
+            "7": {
+              "Title": "Myasthenia Gravis",
+              "p": "Muscle weakness worsening with effort, improving with rest."
+            },
+            "8": {
+              "Title": "Autonomic Disorders",
+              "p": "Disturbance of blood pressure, heart rate, sweating, or digestion control."
+            }
+          }
         },
         "1": {
-          "Title": "Ultrasound neck",
-          "p": ""
+          "Heading": "Neuro-psychiatric Disorders",
+          "Cards": {
+            "0": {
+              "Title": "Anxiety Disorders",
+              "p": "Persistent fear or tension with physical symptoms."
+            },
+            "1": {
+              "Title": "Sleep Disorders",
+              "p": "Difficulty falling or staying asleep due to neurological imbalance."
+            },
+            "2": {
+              "Title": "Chronic Neuropathic Pain",
+              "p": "Ongoing pain linked to altered nerve signal processing."
+            }
+          }
         },
         "2": {
-          "Title": "Thyroid Scintigraphy",
-          "p": "Abklärung und Behandlung von Funktionsstörungen der Schilddrüse mit modernen nuklearmedizinischen Verfahren"
+          "Heading": "Chronic fatigue / Post-COVID syndrome",
+          "Cards": {
+            "0": {
+              "Title": "Chronic Fatigue Syndrome",
+              "p": "Disabling tiredness not relieved by rest, often with cognitive and muscle symptoms."
+            },
+            "1": {
+              "Title": "Post-COVID Syndrome",
+              "p": "Fatigue, brain fog, and pain persisting after infection recovery."
+            }
+          }
         },
         "3": {
-          "Title": "Targeted tissue sampling",
-          "p": "Targeted tissue sampling from the thyroid for further evaluation of nodules and tissue changes"
+          "Heading": "Back and Neck Pain",
+          "Cards": {
+            "0": {
+              "Title": "Chronic Neck Pain",
+              "p": "Muscle tension or nerve compression in the cervical region."
+            },
+            "1": {
+              "Title": "Sciatica",
+              "p": "Pain radiating from lower back to leg due to nerve root pressure."
+            },
+            "2": {
+              "Title": "Herniated Disc",
+              "p": "Slipped disc pressing on spinal nerves causing pain or weakness."
+            }
+          }
         },
         "4": {
-          "Title": "Evaluation and treatment of functional disorders",
-          "p": ""
-        },
-        "5": {
-          "Title": "Thyroid and pregnancy",
-          "p": "professional care and monitoring of thyroid function during pregnancy"
-        },
-        "6": {
-          "Title": "Management of thyroid nodules",
-          "p": "thorough examination and evaluation of nodules in the thyroid for further diagnostics and therapy planning"
-        },
-        "7": {
-          "Title": "Information therapy options",
-          "p": "comprehensive information about possible treatments such as surgery, radioiodine therapy, or medication therapy"
-        },
-        "8": {
-          "Title": "Postoperative follow-up after thyroid surgery",
-          "p": "continuous monitoring and support following surgical removal of the thyroid gland"
-        },
-        "9": {
-          "Title": "Children (from 5 years) with thyroid dysfunction",
-          "p": "individualized diagnostics and therapy for abnormal thyroid values in childhood"
+          "Heading": "Headache and Facial Pain",
+          "Cards": {
+            "0": {
+              "Title": "Tension Headache",
+              "p": "Steady head pressure caused by muscle strain."
+            },
+            "1": {
+              "Title": "Cluster Headache",
+              "p": "Severe pain attacks on one side of the head or behind the eye."
+            },
+            "2": {
+              "Title": "Facial Neuralgia",
+              "p": "Nerve irritation in the face leading to sharp pain or spasm."
+            }
+          }
         }
       },
       "ReadMore": "More Information"

@@ -18,9 +18,11 @@ const Termine = () => {
   return (
     <section  className={styles.termine}>
         <MainHeading>
-            {
-                t("Heading")
-            }
+            <h2>
+                {
+                    t("Heading")
+                }
+            </h2>
         </MainHeading>
         <div className="container"> 
             <h3>

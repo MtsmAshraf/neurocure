@@ -2,34 +2,58 @@
     /* padding-top: 50px; */
     padding-bottom: 100px;
 }
-.services > div:nth-child(2){
+.services > div:first-of-type{
+    position: sticky;
+    top: 40px;
+    margin-bottom: 0 !important;
+    z-index: 2;
+}
+.services > div:nth-child(2) > p{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0px 0px 40px 40px;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    box-shadow: var(--main-shadow);
+}
+.services .section{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.services .section h2{
+    background-color: var(--sec-color);
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    position: sticky;
+    top: 103px;
+}
+.services .section .cards{
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
-    gap: 20px;
-}
-@media (max-width: 1200px) {
-    .services > div:nth-child(2){
-        grid-template-columns: repeat(3, minmax(200px, 1fr));
-    }
+    border-radius: 0px 0px 20px 20px;
+    overflow: hidden;
 }
 @media (max-width: 992px) {
-    .services > div:nth-child(2){
+    .services .section .cards{
         grid-template-columns: repeat(2, minmax(200px, 1fr));
     }
 }
 @media (max-width: 600px) {
-    .services > div:nth-child(2){
+    .services .section .cards{
         grid-template-columns: repeat(1, minmax(200px, 1fr));
     }
 }
 .services .card{
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #eee;
     padding: 30px;
-    border-radius: 10px;
     transition: var(--main-transition);
-    box-shadow: var(--main-shadow);
     text-align: center;
+    box-shadow: var(--sec-shadow);
 }
 .services .card .cardIcon{
     transition: var(--main-transition);
@@ -79,8 +103,24 @@
 .services .card a:hover{
     gap: 20px;
 }
+@media (max-width: 992px) {
+    .services > div:first-of-type{
+        top: 50px;
+    }
+    .services .section h2{
+        top: 113px;
+    }
+    
+}
 @media (max-width: 767px) {
     .services .card{
         text-align: center;
+    }
+    .services > div:first-of-type{
+        top: 30px;
+    }
+    .services .section h2{
+        top: 76px;
+        font-size: 24px;
     }
 }

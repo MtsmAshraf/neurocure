@@ -64,47 +64,112 @@
       "Book": "Termin buchen"
     },
     "Services": {
-      "Heading": "Unsere Leistungen",
-      "Cards": {
+      "Heading": "Leistungen",
+      "Sections": {
         "0": {
-          "Title": "Eine Blutabnahme ist in unserer Ordination möglich",
-          "p": ""
+          "Heading": "Häufige neurologische Erkrankungen",
+          "Cards": {
+            "0": {
+              "Title": "Schlaganfall",
+              "p": "Plötzliche Schwäche oder Taubheit, Sprach- oder Sehstörungen."
+            },
+            "1": {
+              "Title": "Migräne",
+              "p": "Wiederkehrende, meist einseitige Kopfschmerzen mit Übelkeit oder Lichtempfindlichkeit."
+            },
+            "2": {
+              "Title": "Multiple Sklerose (MS)",
+              "p": "Autoimmunerkrankung mit Schwäche, Sehstörungen oder Gleichgewichtsbeschwerden."
+            },
+            "3": {
+              "Title": "Parkinson-Krankheit",
+              "p": "Zittern, verlangsamte Bewegungen, Muskelsteifheit, Gleichgewichtsstörung."
+            },
+            "4": {
+              "Title": "Epilepsie",
+              "p": "Wiederholte elektrische Entladungen im Gehirn mit Krampfanfällen."
+            },
+            "5": {
+              "Title": "Periphere Neuropathie",
+              "p": "Kribbeln, Taubheit oder Schmerzen in Händen oder Füßen."
+            },
+            "6": {
+              "Title": "Trigeminusneuralgie",
+              "p": "Sekundenlange, heftige Gesichtsschmerzattacken."
+            },
+            "7": {
+              "Title": "Myasthenia Gravis",
+              "p": "Muskelschwäche, die sich bei Belastung verstärkt."
+            },
+            "8": {
+              "Title": "Autonome Störungen",
+              "p": "Beeinträchtigung von Blutdruck-, Herzfrequenz-, Schweiß- oder Verdauungssteuerung."
+            }
+          }
         },
         "1": {
-          "Title": "Ultraschall Hals",
-          "p": ""
+          "Heading": "Neuro-psychiatrische Störungen",
+          "Cards": {
+            "0": {
+              "Title": "Angststörungen",
+              "p": "Anhaltende Nervosität oder körperliche Unruhe."
+            },
+            "1": {
+              "Title": "Schlafstörungen",
+              "p": "Ein- oder Durchschlafprobleme neurologischer Ursache."
+            },
+            "2": {
+              "Title": "Chronische neuropathische Schmerzen",
+              "p": "Andauernde Schmerzen ohne klare strukturelle Ursache."
+            }
+          }
         },
         "2": {
-          "Title": "Schilddrüsen-szintigraphie",
-          "p": "Schilddrüsenszintigraphie bei Bedarf in Kooperation mit spezialisierten Zentren"
+          "Heading": "Chronisches Erschöpfungs- / Post-COVID-Syndrom",
+          "Cards": {
+            "0": {
+              "Title": "Chronisches Erschöpfungssyndrom (CFS)",
+              "p": "Tiefe Müdigkeit, Konzentrationsprobleme, Muskelschmerzen."
+            },
+            "1": {
+              "Title": "Post-COVID-Syndrom",
+              "p": "Fortbestehende Erschöpfung, „Brain Fog“, Schmerz nach Infektion."
+            }
+          }
         },
         "3": {
-          "Title": "Feinnadelpunktion",
-          "p": "Gezielte Gewebeentnahme aus der Schilddrüse zur weiteren Abklärung von Knoten und Gewebeveränderungen"
+          "Heading": "Rücken- und Nackenschmerzen",
+          "Cards": {
+            "0": {
+              "Title": "Chronische Nackenschmerzen",
+              "p": "Muskelverspannung oder Nervenkompression im Halsbereich."
+            },
+            "1": {
+              "Title": "Ischias",
+              "p": "Vom Rücken ins Bein ausstrahlender Schmerz durch Druck auf den Ischiasnerv."
+            },
+            "2": {
+              "Title": "Bandscheibenvorfall",
+              "p": "Vorwölbung einer Bandscheibe mit Nervenreizung und Schmerz."
+            }
+          }
         },
         "4": {
-          "Title": "Abklärung & Behandlung von Funktionsstörungen",
-          "p": ""
-        },
-        "5": {
-          "Title": "Schilddrüse & Schwangerschaft",
-          "p": "achgerechte Betreuung und Kontrolle der Schilddrüsenfunktion bei Kinderwunsch, während der Schwangerschaft sowie nach der Entbindung"
-        },
-        "6": {
-          "Title": "Beurteilung von Schilddrüsenknoten",
-          "p": "Gründliche Untersuchung und Abklärung von Knoten in der Schilddrüse zur weiteren Diagnostik und Therapieplanung"
-        },
-        "7": {
-          "Title": "Aufklärung zu Therapieoptionen",
-          "p": "Umfassende Information über mögliche Behandlungen: Operation, Radiojodtherapie oder medikamentöse Therapie"
-        },
-        "8": {
-          "Title": "Nachsorge nach Schilddrüsenoperation",
-          "p": "Langfristige Kontrolle nach operativer Entfernung der Schilddrüse bei Patient:innen mit Schilddrüsenkrebs"
-        },
-        "9": {
-          "Title": "Kinder mit Schilddrüsen-funktionsstörungen",
-          "p": "Diagnostik und Therapie von Schilddrüsenerkrankungen bei Kindern (ab 5 Jahren)"
+          "Heading": "Kopf- und Gesichtsschmerzen",
+          "Cards": {
+            "0": {
+              "Title": "Spannungskopfschmerz",
+              "p": "Druckgefühl im Kopf durch Muskelspannung."
+            },
+            "1": {
+              "Title": "Cluster-Kopfschmerz",
+              "p": "Starke, einseitige Schmerzattacken hinter dem Auge."
+            },
+            "2": {
+              "Title": "Gesichtsneuralgie",
+              "p": "Reizung von Gesichtsnerven mit stechenden Schmerzen oder Spasmen."
+            }
+          }
         }
       },
       "ReadMore": "Weitere Informationen"
