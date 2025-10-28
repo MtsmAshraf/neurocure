@@ -3,7 +3,7 @@ import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
 import { useDispatch } from 'react-redux';
-import { toggleShowPopupModal } from '@/store/showPopupModalSlice';
+import { toggleShowVerticalNav } from '@/store/showVerticalNavSlice';
 
 export default function BookBtn() {
 
@@ -14,7 +14,7 @@ export default function BookBtn() {
   return <button
     className={"book-btn main"}
     onClick={() => {
-      dispatch(toggleShowPopupModal());
+      dispatch(toggleShowVerticalNav());
       console.log("CLICKED")
     }}
   >
