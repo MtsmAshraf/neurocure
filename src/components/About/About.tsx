@@ -4,14 +4,18 @@ import styles from "./about.module.css"
 import Image from 'next/image'
 import drYacobImg from "../../../public/images/doctor-yacob.png"
 import drRimImg from "../../../public/images/doctor-rim.png"
+import { useTranslations } from 'next-intl'
 
 
 const About = () => {
+  const t = useTranslations("AboutUs")
   return (
     <section className={styles.about}>
         <MainHeading>
           <h2>
-            About Us
+            {
+              t("Heading")
+            }
           </h2>
         </MainHeading>
         <div className="container">

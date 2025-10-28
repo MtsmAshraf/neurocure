@@ -38,9 +38,9 @@ const Services = () => {
         </MainHeading>
         <div className="container">
             <p>
-                As a neurologist, I work with patients who suffer from conditions affecting the brain, spinal cord, nerves, and muscles.
-                Many neurological problems begin with subtle signs such as numbness, headache, or persistent fatigue.
-                My approach focuses on listening carefully, identifying the underlying neurological cause, and guiding each patient toward a clear diagnosis and effective treatment plan.
+                {
+                    t("HeadingP")
+                }
             </p>
             <div className={styles.section}>
                 <h2>

@@ -13,6 +13,14 @@
     margin-right: 10px;
     padding-right: 10px;
 }
+.nav.ar .links{
+    border: none;
+    border-left: 1px solid #000;
+    margin-right: 0xp;
+    padding-right: 0xp;
+    margin-left: 10px;
+    padding-left: 10px;
+}
 .nav .links a{
     text-decoration: none;
     color: var(--text-color);

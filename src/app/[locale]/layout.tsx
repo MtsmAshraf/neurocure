@@ -8,7 +8,7 @@ import Footer from "@/components/Footer/Footer";
 // import icon from "../../../public/images/logo.png"
 import icon from "./favicon.ico"
 // import Script from "next/script";
-import { Montserrat } from "next/font/google";
+import { Beiruti, El_Messiri, Montserrat, Scheherazade_New } from "next/font/google";
 import Contact from "@/components/Contact/Contact";
 // import FloatingContact from "@/components/FloatingContact/FloatingContact";
 // import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
@@ -55,6 +55,12 @@ export const metadata: Metadata = {
     subsets: ["latin"],
     weight: ["200", "400","700"], 
   });
+  const elMessiri = El_Messiri({
+    subsets: ["arabic"],
+    weight: ["400", "700"],
+    style: ["normal",],
+  })
+
   
 export default async function RootLayout({
   children,
@@ -70,7 +76,7 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang={locale} className={montserrat.className}>
+    <html lang={locale} className={locale === "ar" ? elMessiri.className : montserrat.className}>
       <body>
         <NextIntlClientProvider>
           <Header lo={locale}></Header>

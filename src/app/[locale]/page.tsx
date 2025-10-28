@@ -21,12 +21,12 @@ export default async function Home({
         <Loader />
         <Hero lo={locale} />
         {/* <Termine /> */}
+        <About />
         <Services />
         {/* <OrdinationComponent /> */}
         {/* <BlogCards lo={locale} /> */}
         {/* <Telemedizin /> */}
         {/* <Faq /> */}
-        <About />
       </main>
   );
 }

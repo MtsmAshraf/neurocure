@@ -5,7 +5,7 @@
     "OnlineTermine": "Online-Termine",
     "DieOrdination": "Die Ordination",
     "Pages": "Seiten",
-    "ContactUs": "Kontaktieren Sie uns",
+    "ContactUs": "Kontakt",
     "Language": "Sprache"
   },
   "Footer": {
@@ -65,6 +65,7 @@
     },
     "Services": {
       "Heading": "Leistungen",
+      "HeadingP": "Als Facharzt für Neurologie behandle ich Erkrankungen des Gehirns, Rückenmarks, der Nerven und Muskeln. Viele Beschwerden beginnen unscheinbar – ein Kribbeln, ein wiederkehrender Kopfschmerz, eine ungeklärte Müdigkeit. Mein Ziel ist es, zuzuhören, die Ursache zu verstehen und eine gezielte, nachvollziehbare Therapie einzuleiten.",
       "Sections": {
         "0": {
           "Heading": "Häufige neurologische Erkrankungen",
@@ -214,5 +215,8 @@
   },
   "Datenschutz": {
     "Heading": "Datenschutz"
+  },
+  "AboutUs": {
+    "Heading": "Über uns"
   }
 }
