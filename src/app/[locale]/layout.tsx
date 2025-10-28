@@ -8,7 +8,7 @@ import Footer from "@/components/Footer/Footer";
 // import icon from "../../../public/images/logo.png"
 import icon from "./favicon.ico"
 // import Script from "next/script";
-import { Beiruti, El_Messiri, Montserrat, Scheherazade_New } from "next/font/google";
+import { El_Messiri, Montserrat } from "next/font/google";
 import Contact from "@/components/Contact/Contact";
 // import FloatingContact from "@/components/FloatingContact/FloatingContact";
 // import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
@@ -18,34 +18,10 @@ import Contact from "@/components/Contact/Contact";
 
 export const metadata: Metadata = {
   title: "NeuroCure | Dr. Mohammed Yacob",
-  description: "Specialized thyroid clinic in Vienna offering diagnosis, ultrasound, blood tests, treatment of thyroid disorders, Hashimoto, nodules, and pregnancy-related thyroid care. Fachärztin für Schilddrüse in Wien.",
+  description: "As a neurologist, I work with patients who suffer from conditions affecting the brain, spinal cord, nerves, and muscles. Many neurological problems begin with subtle signs such as numbness, headache, or persistent fatigue. My approach focuses on listening carefully, identifying the underlying neurological cause, and guiding each patient toward a clear diagnosis and effective treatment plan.",
   icons: icon.src,
   keywords: [
-    'Schilddrüse', 'thyroid', 'thyroid gland', 'Schilddrüsen Praxis', 'thyroid clinic',
-    'Schilddrüsenspezialist', 'thyroid specialist', 'Endokrinologe', 'endocrinologist',
-    'Schilddrüsenarzt Wein', 'thyroid doctor Wein', 'Schilddrüsenbehandlung', 'thyroid treatment',
-
-    'Schilddrüsenunterfunktion', 'hypothyroidism', 'Schilddrüsenüberfunktion', 'hyperthyroidism',
-    'Hashimoto', 'Hashimoto Thyreoiditis', 'Morbus Basedow', 'Graves disease',
-    'Schilddrüsenknoten', 'thyroid nodules', 'Struma', 'goiter', 'Schilddrüsenkrebs', 'thyroid cancer',
-
-    'Schilddrüsendiagnostik', 'thyroid diagnosis', 'Schilddrüsenultraschall', 'thyroid ultrasound',
-    'Schilddrüsenszintigrafie', 'thyroid scan', 'Feinnadelpunktion', 'fine-needle aspiration',
-    'Schilddrüsen Bluttest', 'thyroid blood test', 'TSH', 'T3', 'T4', 'Schilddrüsen Antikörper',
-
-    'Radiojodtherapie', 'radioiodine therapy', 'Schilddrüsen Operation', 'thyroid surgery',
-    'Hormontherapie', 'hormone replacement therapy', 'L-Thyroxin', 'levothyroxine',
-
-    'Wein', 'Schilddrüsen Praxis Wein', 'thyroid clinic Wein', 'Endokrinologe Wein',
-    'Englischsprachiger Arzt Wein', 'English speaking doctor Wein',
-
-    'individuelle Therapie', 'individual therapy', 'Vorsorge', 'preventive care', 'persönliche Betreuung',
-
-    "thyroid clinic", "Schilddrüsenklinik", "thyroid specialist Vienna", "Schilddrüsenarzt Wien",
-    "hyperthyroidism", "Hyperthyreose", "hypothyroidism", "Hypothyreose",
-    "Hashimoto", "Morbus Basedow", "thyroid nodules", "Schilddrüsenknoten",
-    "thyroid ultrasound", "Schilddrüsen-Ultraschall", "Feinnadelpunktion", "thyroid surgery consultation",
-    "Vienna thyroid clinic", "Schilddrüsenklinik Wien"
+    
   ],
   
 };
