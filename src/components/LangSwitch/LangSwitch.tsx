@@ -18,8 +18,7 @@ const LangSwitch = ({
         router.replace(`${jointPathname}`)
     }
   return (
-    // <button onClick={changeLanguage} className={lo === "ar" ? styles.ar + " " + styles.langSwitch : styles.langSwitch}>
-    <button className={styles.langSwitch}>
+    <button className={lo === "ar" ? styles.ar + " " + styles.langSwitch : styles.langSwitch}>
       <span onClick={() => {changeLanguage("de")}} className={lo === "de" ? styles.active : ""}>De</span>
       <span onClick={() => {changeLanguage("en")}} className={lo === "en" ? styles.active : ""}>En</span>
       <span onClick={() => {changeLanguage("ar")}} className={lo === "ar" ? styles.active : ""}>Ar</span>
