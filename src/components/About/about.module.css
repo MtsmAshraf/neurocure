@@ -83,11 +83,15 @@
     background-image: var(--main-gradient);
     color: #fff;
     padding: 5px 10px;
-    border-radius: 6px;
+    border-radius: 10px 10px 0px 0px;
     font-weight: normal;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     text-align: center;
     font-size: 20px;
+}
+.about .person .textInfo ul{
+    background-color: #fff;
+    padding: 20px;
 }
 .about .person .textInfo > div:nth-child(1) ul{
    display: flex;
@@ -106,6 +110,10 @@
 }
 .about .person .textInfo > div ul li{
     margin-bottom: 20px;
+}
+.about .person .textInfo > div ul li:not(:last-child){
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
 }
 .about .person .textInfo > div ul li p{
     line-height: 1.4;
