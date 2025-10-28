@@ -4,7 +4,7 @@ import styles from "./online-termine.module.css"
 import Termine from '@/components/Termine/Termine'
 import { Provider } from 'react-redux'
 import { store } from '@/store/store'
-import Telemedizin from '@/components/Telemedizin/Telemedizin'
+// import Telemedizin from '@/components/Telemedizin/Telemedizin'
 
 const OnlineTermine = () => {
   return (

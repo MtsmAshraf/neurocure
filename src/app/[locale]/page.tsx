@@ -6,7 +6,6 @@ import Services from "@/components/Services/Services";
 // import OrdinationComponent from "@/components/OrdinationComponent/OrdinationComponent";
 // import Termine from "@/components/Termine/Termine";
 import About from "@/components/About/About";
-import Contact from "@/components/Contact/Contact";
 
 export default async function Home({
   params
