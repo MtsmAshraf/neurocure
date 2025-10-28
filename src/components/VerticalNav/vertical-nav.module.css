@@ -1,18 +1,25 @@
 .verticalNav{
     position: fixed;
     right: 0;
-    top: 0;
-    transform: translateX(110%);
+    top: 0%;
+    transform: translateY(0%);
+    height: 0vh;
     height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: var(--bg-color);
-    padding-top: 20px;
+    backdrop-filter: blur(100px);
     border-left: 1px solid var(--main-color);
     transition: var(--main-transition);
     transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    z-index: 10;
+    overflow: hidden;
     display: none;
 }
 .verticalNav.shown{
-    transform: translateX(0%);
+    display: flex;
 }
 .verticalNav > *{
     margin-left: auto;
@@ -34,6 +41,8 @@
 }
 .verticalNav .links li{
     width: 100%;
+}
+.verticalNav .links li:not(:last-child){
     border-bottom: 1px solid #ddd;
 }
 .verticalNav .links a{
@@ -44,16 +53,13 @@
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 14px;
+    font-size: 34px;
     transition: var(--main-transition);
 }
-.verticalNav .links a.active{
-    background-color: var(--main-color);
-    color: #fff;
-}
+.verticalNav .links a.active,
 .verticalNav .links a:hover{
-    background-color: var(--main-color);
-    color: #fff;
+    color: var(--main-color);
+    font-weight: bold;
 }
 .verticalNav > :last-child{
     margin-right: 20px;
@@ -62,6 +68,15 @@
 .verticalNav .social{
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 50px;
+}
+.verticalNav .social a{
+    width: 40px !important;
+    height: 40px !important;
+}
+.verticalNav .social svg{
+    width: 20px !important;
+    height: 20px !important;
 }
 .verticalNav .language{
     display: flex;

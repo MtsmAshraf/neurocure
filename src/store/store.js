@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import showPopupModalReducer from "./showPopupModalSlice"
+import showVerticalNavReducer from "./showVerticalNavSlice"
 
 export const store = configureStore({
   reducer: {
-    showPopupModal: showPopupModalReducer,
+    showVerticalNav: showVerticalNavReducer,
   },
 });

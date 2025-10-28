@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import styles from "./header.module.css"
 import Nav from '../Nav/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import VerticalNav from '../VerticalNav/VerticalNav'
 import { usePathname } from 'next/navigation'
 import LogoHeader from '../LogoHeader/LogoHeader'
@@ -36,7 +36,7 @@ const Header = ({
               </button>
             </div>
             <button className={showVNav ? styles.close + " " + styles.shown : styles.close} onClick={() => {setShowVNav(!showVNav)}}>
-                <FontAwesomeIcon icon={faArrowRight} />
+                <FontAwesomeIcon icon={faXmark} />
             </button>
             <VerticalNav lo={lo} shown={showVNav}></VerticalNav>
         </div>

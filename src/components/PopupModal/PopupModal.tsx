@@ -6,12 +6,12 @@ import { getCalApi } from '@calcom/embed-react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { useDispatch, useSelector } from 'react-redux'
-import { toggleShowPopupModal } from '@/store/showPopupModalSlice'
+import { toggleShowVerticalNav } from '@/store/showVerticalNavSlice'
 
 const PopupModal = () => {
     const t = useTranslations("BookBtn") 
 
-    const showPopupModal = useSelector((state: any) => state.showPopupModal.showPopupModal);
+    const showVerticalNav = useSelector((state: any) => state.showVerticalNav.showVerticalNav);
     const dispatch = useDispatch();
 
 
@@ -28,20 +28,20 @@ const PopupModal = () => {
         })();
     }, [])
   return (
-        <div className={showPopupModal ? styles.popupModal + " " + styles.shown : styles.popupModal} >
+        <div className={showVerticalNav ? styles.popupModal + " " + styles.shown : styles.popupModal} >
             <div 
                 className={styles.overlay}
                 onClick={() => {
-                    dispatch(toggleShowPopupModal());
-                    console.log("CLICKED", showPopupModal)
+                    dispatch(toggleShowVerticalNav());
+                    console.log("CLICKED", showVerticalNav)
 
                 }}
             ></div>
             <button 
                 className={styles.closeModal}
                 onClick={() => {
-                    dispatch(toggleShowPopupModal());
-                    console.log("CLICKED", showPopupModal)
+                    dispatch(toggleShowVerticalNav());
+                    console.log("CLICKED", showVerticalNav)
 
                 }}
             >
