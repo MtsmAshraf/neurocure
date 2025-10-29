@@ -6,6 +6,7 @@
     "DieOrdination": "Die Ordination",
     "Pages": "Seiten",
     "ContactUs": "Kontakt",
+    "AboutUs": "Über uns",
     "Language": "Sprache"
   },
   "Footer": {
@@ -27,6 +28,11 @@
     "Telemedizin": "Telemedizin"
   },
   "HomePage": {
+    "Hero": {
+      "heading": "Neurology With Personal Attention",
+      "description": "Specialized care for headaches, dizziness, neuropathy and more. Private clinic in the heart of Vienna.",
+      "cta": "Book Appointment"
+    },
     "OnlineTermine": {
       "Heading": "Online-Termine",
       "Emergency": {

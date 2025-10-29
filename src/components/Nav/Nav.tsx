@@ -31,9 +31,9 @@ const Nav = ({
                 </Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/die-ordination` ? styles.active : ""} href={'/die-ordination'}>
+                <Link className={pathname === `/${lo}/about` ? styles.active : ""} href={'/about'}>
                     {
-                        t("DieOrdination")
+                        t("AboutUs")
                     }
                 </Link>
             </li>

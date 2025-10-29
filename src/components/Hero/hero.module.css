@@ -4,7 +4,10 @@
     overflow: hidden;
     min-height: calc(100vh - 150px);
     /* margin-top: 248px; */
-    background-color: var(--slider-bg);
+    /* background-color: var(--slider-bg); */
+    background-image: url("../../../public/images/hero-bg-3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .hero.ar{
     direction: rtl;
@@ -18,12 +21,49 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--slider-bg);
+    background-color: #ffffff67;
+    backdrop-filter: blur(40px);
 }
-.hero .slide.main{
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding-bottom: 80px;
+.hero .slide .text{
+    width: 50%;
+}
+.hero .slide .text img{
+    object-fit: contain;
+    width: 300px;
+    height: 150px;
+}
+.hero .slide .text h1{
+    font-size: 50px;
+}
+.hero .slide .text p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.hero .slide .text a{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-image: var(--main-gradient);
+    color: #fff;
+    transition: var(--main-transition);
+}
+.hero .slide .text a:hover{
+    background-image: none;
+    background-color: #fff;
+    color: #000;
+}
+.hero .slide .img{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .slide > img{
+    object-fit: contain;
+    width: 40%;
+    height: 500px;
 }
 .hero .swiper > button{
     /* position: absolute; */
@@ -66,7 +106,30 @@
 .hero .heroPagination span{
     background-color: #fff;
 }
+@media (max-width: 992px) {
+    .hero .slide .text{
+        width: 100%;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .hero .slide > img{
+        display: none;
+    }
+}
 @media (max-width: 767px) {
+    .hero .slide .text{
+        text-align: center;
+    }
+    .hero .slide .text img{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        width: fit-content;
+    }
+    .hero .slide .text h1{
+        font-size: 34px;
+        margin-top: 30px;
+    }
     .hero .heroPagination{
         /* bottom: 60px; */
         transform: translateX(-50%) translateY(50%);
