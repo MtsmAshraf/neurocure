@@ -1,11 +1,7 @@
-"use client"
 import React from 'react'
 import styles from "./footer.module.css"
 import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
-import { Provider } from 'react-redux'
-import { store } from '@/store/store'
-import PopupModal from '../PopupModal/PopupModal'
 const Footer = ({
   lo
 } : {
@@ -25,32 +21,32 @@ const Footer = ({
               </h4>
               <div>
                 <address>
-                  Dr.med.univ. Fairoz Mohammed. Mariahilfer Str. 95, 1060 Wien
+                  Dr.med.univ. Muhammed Yacob
                 </address>
                 <p>
                   {t("Phone")}: 
-                    <a href="tel:+436701960112 " target='_blank'>
-                      +43 670 1960112
+                    <a href="tel:+43670 " target='_blank'>
+                      +43 670 
                     </a>
                 </p>
                 <p>
                   Email: 
-                    <a href="mailto:office@schilddruesemohammed.at?subject=Mail-From-Schilddrüse-website" target='_blank'>
-                      office@schilddruesemohammed.at
+                    <a href="mailto:office@test.at?subject=Mail-From-NeuroCure-website" target='_blank'>
+                      office@test.at
                     </a>
                 </p>
-                <a href="https://www.schilddruesemohammed.at">
-                  www.schilddruesemohammed.at    
+                <a href="https://www.NeuroCure.at">
+                  www.NeuroCure.at    
                 </a>
                 <p>
                   Bank Austria: 
                   <span>
-                    IBAN: AT821200010046435458. <br /> BIC: BKAUATWWXXX
+                    IBAN: AT82120001XXXXXXXXXX. <br /> BIC: XXXXXXXXXX
                   </span>
-                  <br />
+                  {/* <br />
                   <b>
                     {t("Note")}
-                  </b>
+                  </b> */}
                 </p>
               </div>
             </div>
@@ -67,9 +63,6 @@ const Footer = ({
                 Moatasim
             </a>  2025
         </div>
-        <Provider store={store}>
-          <PopupModal />
-        </Provider>
     </footer>
   )
 }
