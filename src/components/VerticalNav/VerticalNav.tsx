@@ -26,13 +26,6 @@ const VerticalNav = ({
                 </Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/online-termine` ? styles.active : ""} href={'/online-termine'}>
-                    {
-                        t("OnlineTermine")
-                    }
-                </Link>
-            </li>
-            <li>
                 <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>
                     {
                         t("Services")
@@ -40,9 +33,16 @@ const VerticalNav = ({
                 </Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/die-ordination` ? styles.active : ""} href={'/die-ordination'}>
+                <Link className={pathname === `/${lo}/about` ? styles.active : ""} href={'/about'}>
                     {
-                        t("DieOrdination")
+                        t("AboutUs")
+                    }
+                </Link>
+            </li>
+            <li>
+                <Link className={pathname === `/${lo}/contact` ? styles.active : ""} href={'/contact'}>
+                    {
+                        t("ContactUs")
                     }
                 </Link>
             </li>
