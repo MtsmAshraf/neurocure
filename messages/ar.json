@@ -29,9 +29,9 @@
   },
   "HomePage": {
     "Hero": {
-      "heading": "Neurology With Personal Attention",
-      "description": "Specialized care for headaches, dizziness, neuropathy and more. Private clinic in the heart of Vienna.",
-      "cta": "Book Appointment"
+      "heading": "رعاية عصبية باهتمام شخصي",
+      "description": "رعاية متخصصة للصداع والدوار والاعتلال العصبي وغيره. عيادة خاصة في قلب فيينا.",
+      "cta": "احجز موعدك"
     },
     "OnlineTermine": {
       "Heading": "حجوزات أونلاين",

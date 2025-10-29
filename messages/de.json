@@ -29,9 +29,9 @@
   },
   "HomePage": {
     "Hero": {
-      "heading": "Neurology With Personal Attention",
-      "description": "Specialized care for headaches, dizziness, neuropathy and more. Private clinic in the heart of Vienna.",
-      "cta": "Book Appointment"
+      "heading": "Neurologie mit persönlicher Betreuung",
+      "description": "Spezialisierte Betreuung bei Kopfschmerzen, Schwindel, Neuropathie und mehr. Private Ordination im Herzen Wiens.",
+      "cta": "Termin buchen"
     },
     "OnlineTermine": {
       "Heading": "Online-Termine",
