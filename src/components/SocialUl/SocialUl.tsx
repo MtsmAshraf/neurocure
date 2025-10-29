@@ -6,12 +6,12 @@ const SocialUl = () => {
   return (
     <ul className={styles.socialUl}>
         <li>
-            <a title="Phone Call" target='_blank' href="tel:+436701960112">
+            <a title="Phone Call" target='_blank' href="tel:+4367">
                 <FontAwesomeIcon icon={faPhone}/>
             </a>
         </li>
         <li>
-            <a title="SMS" target='_blank' href="sms:+436701960112">
+            <a title="SMS" target='_blank' href="sms:+4367">
                 <FontAwesomeIcon icon={faCommentSms}/>
             </a>
         </li>
