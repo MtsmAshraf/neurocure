@@ -29,12 +29,6 @@ const Footer = ({
                       +43 670 
                     </a>
                 </p>
-                <p>
-                  Email: 
-                    <a href="mailto:office@test.at?subject=Mail-From-NeuroCure-website" target='_blank'>
-                      office@test.at
-                    </a>
-                </p>
                 <a href="https://www.NeuroCure.at">
                   www.NeuroCure.at    
                 </a>
