@@ -2,10 +2,10 @@ import "./globals.css";
 import Hero from "@/components/Hero/Hero";
 import styles from "./home.module.css"
 import Loader from "@/components/Loader/Loader";
-import Services from "@/components/Services/Services";
+// import Services from "@/components/Services/Services";
 // import OrdinationComponent from "@/components/OrdinationComponent/OrdinationComponent";
 // import Termine from "@/components/Termine/Termine";
-import About from "@/components/About/About";
+// import About from "@/components/About/About";
 
 export default async function Home({
   params
@@ -21,8 +21,8 @@ export default async function Home({
         <Loader />
         <Hero lo={locale} />
         {/* <Termine /> */}
-        <About />
-        <Services />
+        {/* <About /> */}
+        {/* <Services /> */}
         {/* <OrdinationComponent /> */}
         {/* <BlogCards lo={locale} /> */}
         {/* <Telemedizin /> */}
