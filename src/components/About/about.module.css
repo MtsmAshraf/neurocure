@@ -118,6 +118,7 @@
     line-height: 1.4;
 }
 .about .person .textInfo > div ul li > div div{
+    margin-bottom: 5px;
     margin-top: 5px;
 }
 .about .person .textInfo > div ul li > div div span{

@@ -329,6 +329,99 @@
             }
         }
       }
+    },
+    
+    "1": {
+      "Name": "Rim Al-Dahhan",
+      "Title": "Ordinationsassistentin",
+      "Qualifications": {
+        "Experience": {
+          "Heading": "Erfahrung",
+          "0": {
+            "Title": "Ordinationsmanagerin",
+            "Details": "Praxis von Dr. Rula Al Harbi, 1030 Wien",
+            "Date": "06/2022 – 07/2025"
+          },
+          "1": {
+            "Title": "Ordinationsassistentin",
+            "Details": "Praxis von Dr. med. Gihan Ibrahim, 1020 Wien",
+            "Date": "06/2021 – 05/2022"
+          },
+          "2": {
+            "Title": "Ordinationsassistentin",
+            "Details": "Praxis von Dr. Rula Al Harbi, 1030 Wien",
+            "Date": "12/2017 – 12/2019"
+          },
+          "3": {
+            "Title": "Aktive Arbeitssuche und Weiterbildung",
+            "Date": "12/2014 – 08/2016"
+          },
+          "4": {
+            "Title": "Kindergruppenbetreuerin",
+            "Details": "Kindergruppe „Iman“, 1200 Wien",
+            "Date": "06/2005 – 11/2014"
+          },
+          "5": {
+            "Title": "Ausbildung zur Ordinationsassistentin",
+            "Details": "Schulungszentrum Dr. Kienbacher, 1140 Wien",
+            "Date": "09/2016 – 05/2017"
+          },
+          "6": {
+            "Title": "Institut für Kindergarten - und Hortpädagogik Ausbildung zur Kindergruppenbetreuerin",
+            "Details": "Volkshochschule (VHS) Brigittenau, 1200 Wien",
+            "Date": "10/2004 – 05/2005"
+          },
+          "7": {
+            "Title": "Studium: englische Literatur",
+            "Details": "Universität, Damaskus, Syrien",
+            "Date": "07/1990 – 07/1994"
+          },
+          "8": {
+            "Title": "Maturalehrgang",
+            "Details": "Damaskus, Syrien",
+            "Date": "09/1989 – 06/1990"
+          },
+          "9": {
+            "Title": "Gymnasium",
+            "Details": "Damaskus, Syrien",
+            "Date": "09/1983 – 06/1989"
+          },
+          "10": {
+            "Title": "Grundschule",
+            "Details": "Damaskus, Syrien",
+            "Date": "09/1979 – 06/1983"
+          }
+        },
+        "Education": {
+          "Heading": "Weiterbildungen / Praktika",
+          "0": {
+            "Title": "Deutschkurs Niveau B2",
+            "Details": "ZIB Training GmbH, 1220 Wien Bildungsinstitut",
+            "Date": "08/2020 – 11/2020"
+          },
+          "1": {
+            "Title": "Deutschkurs Niveau B1",
+            "Details": "the update training GmbH, 1210 Wien Bildungsinstitut",
+            "Date": "12/2015 – 02/2016"
+          }
+        },
+        "Certifications": {
+          "Heading": "Qualifikationen",
+          "0": {
+            "Title": "Sprachen",
+            "Details": {
+              "0": "Arabisch: Exzellente Kenntnisse,",
+              "1": "Deutsch: Gute Kenntnisse,",
+              "2": "Englisch: Durchschnittliche Kenntnisse,"
+            },
+            "Date": "Issued Feb 2025 · Expires Feb 2030"
+          },
+          "1": {
+            "Title": "EDV",
+            "Details": "Grundlegende MS Office Anwendungskenntnisse, gute Kenntnisse GanyMED"
+          }
+        }
+      }
     }
   }
 }

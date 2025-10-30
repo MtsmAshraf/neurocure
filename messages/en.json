@@ -330,6 +330,98 @@
           }
         }
       }
+    },
+    "1": {
+      "Name": "Rim Al-Dahhan",
+      "Title": "Medical Assistant",
+      "Qualifications": {
+        "Experience": {
+          "Heading": "Experience",
+          "0": {
+            "Title": "Clinic Manager",
+            "Details": "Practice of Dr. Rula Al Harbi, 1030 Vienna",
+            "Date": "06/2022 – 07/2025"
+          },
+          "1": {
+            "Title": "Medical Assistant",
+            "Details": "Practice of Dr. Gihan Ibrahim, 1020 Vienna",
+            "Date": "06/2021 – 05/2022"
+          },
+          "2": {
+            "Title": "Medical Assistant",
+            "Details": "Practice of Dr. Rula Al Harbi, 1030 Vienna",
+            "Date": "12/2017 – 12/2019"
+          },
+          "3": {
+            "Title": "Active Job Search and Further Training",
+            "Date": "12/2014 – 08/2016"
+          },
+          "4": {
+            "Title": "Childcare Assistant",
+            "Details": "Children’s Group “Iman”, 1200 Vienna",
+            "Date": "06/2005 – 11/2014"
+          },
+          "5": {
+            "Title": "Training as Medical Assistant",
+            "Details": "Training Center Dr. Kienbacher, 1140 Vienna",
+            "Date": "09/2016 – 05/2017"
+          },
+          "6": {
+            "Title": "Institute for Kindergarten and After-School Education – Training as Childcare Assistant",
+            "Details": "Adult Education Center (VHS) Brigittenau, 1200 Vienna",
+            "Date": "10/2004 – 05/2005"
+          },
+          "7": {
+            "Title": "Bachelor’s Studies: English Literature",
+            "Details": "University of Damascus, Syria",
+            "Date": "07/1990 – 07/1994"
+          },
+          "8": {
+            "Title": "High School Program",
+            "Details": "Damascus, Syria",
+            "Date": "09/1989 – 06/1990"
+          },
+          "9": {
+            "Title": "Secondary School",
+            "Details": "Damascus, Syria",
+            "Date": "09/1983 – 06/1989"
+          },
+          "10": {
+            "Title": "Primary School",
+            "Details": "Damascus, Syria",
+            "Date": "09/1979 – 06/1983"
+          }
+        },
+        "Education": {
+          "Heading": "Further Education / Internships",
+          "0": {
+            "Title": "German Language Course Level B2",
+            "Details": "ZIB Training GmbH, 1220 Vienna Educational Institute",
+            "Date": "08/2020 – 11/2020"
+          },
+          "1": {
+            "Title": "German Language Course Level B1",
+            "Details": "the update training GmbH, 1210 Vienna Educational Institute",
+            "Date": "12/2015 – 02/2016"
+          }
+        },
+        "Certifications": {
+          "Heading": "Certifications",
+          "0": {
+            "Title": "Languages",
+            "Details": {
+              "0": "Arabic: Excellent proficiency,",
+              "1": "German: Good proficiency,",
+              "2": "English: Average proficiency,"
+            },
+            "Date": "Issued Feb 2025 · Expires Feb 2030"
+          },
+          "1": {
+            "Title": "Computer Skills",
+            "Details": "Basic MS Office applications, good knowledge of GanyMED"
+          }
+        }
+      }
     }
   }
 }
