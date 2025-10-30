@@ -7,10 +7,18 @@ import drRimImg from "../../../public/images/doctor-rim.png"
 import { useTranslations } from 'next-intl'
 
 
-const About = () => {
+const About = ({
+  lo
+} : {
+  lo: string
+}) => {
   const t = useTranslations("AboutUs")
+  const classNames = [
+    styles.about,
+    lo === "ar" ? styles.ar : null
+  ]
   return (
-    <section className={styles.about}>
+    <section className={classNames.join(" ")}>
         <MainHeading>
           <h2>
             {
@@ -25,254 +33,230 @@ const About = () => {
                 <Image src={drYacobImg} alt="Dr. Muhammad Yacob"></Image>
               </div>
               <h2>
-                Dr. Muhammad Yacob
+                {
+                  t("0.Name")
+                }
               </h2>
               <span>
-                Neurology Consultant
+                {
+                  t("0.Title")
+                }
               </span>
               <p>
-              with ten years of experience in Europe and middle East .
-              Currently working as neurologist and post Covid specialist at Evangelic hospital in Vienna, Austria, and running a privat clinic. In addition to 15 months of experience as a scientific researcher in polypharmacy .
-              Multi-lingual fluency in Arabic, English, and German.              </p>
+                {
+                  t("0.Description")
+                }
+              </p>
             </div>
             <div className={styles.textInfo}>
               <div>
-                <h3>Experience</h3>
+                <h3>
+                  {
+                    t("0.Qualifications.Experience.Heading")
+                  }
+                </h3>
+                
                 <ul>
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Neuroscience Specialist
-                        </span>
-                        <p>
-                          Unfallkrankenhaus Meidling · Part-time
-                        </p>
+                        <span>{t("0.Qualifications.Experience.0.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.0.Details")}</p>
                       </div>
-                    <span>
-                      Sep 2023 - Present
-                    </span>
+                      <span>{t("0.Qualifications.Experience.0.Date")}</span>
                     </div>
                   </li>
+
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Private Cliinc for Neurology
-                        </span>
-                        <p>
-                          Unfallkrankenhaus Meidling · Part-time
-                        </p>
+                        <span>{t("0.Qualifications.Experience.1.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.1.Details")}</p>
                       </div>
-                    <span>
-                      Nov 2021 - Present
-                    </span>
+                      <span>{t("0.Qualifications.Experience.1.Date")}</span>
                     </div>
                   </li>
+
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Neurologist, Facharzt für Neurologie
-                        </span>
-                        <p>
-                          Austaria
-                        </p>
+                        <span>{t("0.Qualifications.Experience.2.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.2.Details")}</p>
                       </div>
-                    <span>
-                      Jun 2020 - Present
-                    </span>
+                      <span>{t("0.Qualifications.Experience.2.Date")}</span>
                     </div>
                   </li>
+
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Neurologist, Facharzt für Neurologie
-                        </span>
-                        <p>
-                          Evangelisches Krankenhaus in Wien · Full-time
-                        </p>
+                        <span>{t("0.Qualifications.Experience.3.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.3.Details")}</p>
                       </div>
-                    <span>
-                      Nov 2020 - Sep 2023
-                    </span>
+                      <span>{t("0.Qualifications.Experience.3.Date")}</span>
                     </div>
                   </li>
+
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Asistantarzt
-                        </span>
-                        <p>
-                          National Hospital of Villach Landeskrankenhaus Villach
-                        </p>
+                        <span>{t("0.Qualifications.Experience.4.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.4.Details")}</p>
                       </div>
-                    <span>
-                      Mar 2019 - Oct 2020
-                    </span>
+                      <span>{t("0.Qualifications.Experience.4.Date")}</span>
                     </div>
                   </li>
+
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Neurologist, Internship
-                        </span>
-                        <p>
-                          Landeskrankenhaus Villach, National Hospital of Villach
-                        </p>
+                        <span>{t("0.Qualifications.Experience.5.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.5.Details")}</p>
                       </div>
-                    <span>
-                      Dec 2018 - Jan 2019
-                    </span>
+                      <span>{t("0.Qualifications.Experience.5.Date")}</span>
                     </div>
                   </li>
+
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Researcher
-                        </span>
-                        <p>
-                          Landeskrankenhaus Villach - Villach national Hospital
-                        </p>
+                        <span>{t("0.Qualifications.Experience.6.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.6.Details")}</p>
                       </div>
-                    <span>
-                      Aug 2016 - Dec 2018
-                    </span>
+                      <span>{t("0.Qualifications.Experience.6.Date")}</span>
                     </div>
                   </li>
+
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Neurologist, Internship
-                        </span>
-                        <p>
-                          villach National Hospital, Austria
-                        </p>
+                        <span>{t("0.Qualifications.Experience.7.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.7.Details")}</p>
                       </div>
-                    <span>
-                      Jan 2016 - May 2016
-                    </span>
+                      <span>{t("0.Qualifications.Experience.7.Date")}</span>
                     </div>
                   </li>
+
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Neurologist
-                        </span>
-                        <p>
-                          Al Mahayni hospital
-                        </p>
+                        <span>{t("0.Qualifications.Experience.8.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.8.Details")}</p>
                       </div>
-                    <span>
-                      Jul 2012 - Oct 2013
-                    </span>
+                      <span>{t("0.Qualifications.Experience.8.Date")}</span>
                     </div>
                   </li>
+
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Neurologist
-                        </span>
-                        <p>
-                          Mujtahed hospital Damascus
-                        </p>
+                        <span>{t("0.Qualifications.Experience.9.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.9.Details")}</p>
                       </div>
-                    <span>
-                      May 2012 - Feb 2013
-                    </span>
+                      <span>{t("0.Qualifications.Experience.9.Date")}</span>
                     </div>
                   </li>
+
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Neurology
-                        </span>
-                        <p>
-                          Fayez Halawe Hospital
-                        </p>
+                        <span>{t("0.Qualifications.Experience.10.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.10.Details")}</p>
                       </div>
-                    <span>
-                      Jun 2012 - Dec 2012
-                    </span>
+                      <span>{t("0.Qualifications.Experience.10.Date")}</span>
                     </div>
                   </li>
+
                   <li>
                     <div>
                       <div>
-                        <span>
-                          Neurologist
-                        </span>
-                        <p>
-                          Private Clinic in Damascus
-                        </p>
+                        <span>{t("0.Qualifications.Experience.11.Title")}</span>
+                        <p>{t("0.Qualifications.Experience.11.Details")}</p>
                       </div>
-                    <span>
-                      Dec 2010 - Mar 2012
-                    </span>
+                      <span>{t("0.Qualifications.Experience.11.Date")}</span>
                     </div>
                   </li>
+
                 </ul>
               </div>
               <div>
                 <div>
-                  <h3>Education</h3>
+                  <h3>
+                    {
+                      t("0.Qualifications.Education.Heading")
+                    }
+                  </h3>
                   <ul>
                     <li>
                       <div>
                         <div>
                           <span>
-                            Neuroscience Specialist
+                            {
+                              t("0.Qualifications.Education.0.Title")
+                            }
                           </span>
                           <p>
-                            Unfallkrankenhaus Meidling · Part-time
+                            {
+                              t("0.Qualifications.Education.0.Details")
+                            }
                           </p>
                         </div>
-                      <span>
-                        Sep 2023 - Present
-                      </span>
+                        <span>
+                              {
+                                t("0.Qualifications.Education.0.Date")
+                              }
+                        </span>
                       </div>
                     </li>
                     <li>
                       <div>
                         <div>
                           <span>
-                            Private Cliinc for Neurology
+                            {
+                              t("0.Qualifications.Education.1.Title")
+                            }
                           </span>
                           <p>
-                            Unfallkrankenhaus Meidling · Part-time
+                            {
+                              t("0.Qualifications.Education.1.Details")
+                            }
                           </p>
                         </div>
-                      <span>
-                        Nov 2021 - Present
-                      </span>
+                        <span>
+                              {
+                                t("0.Qualifications.Education.1.Date")
+                              }
+                        </span>
                       </div>
                     </li>
                   </ul>
                 </div>
                 
                 <div>
-                  <h3>Licenses & Certifications</h3>
+                  <h3>
+                    {
+                      t("0.Qualifications.Certifications.Heading")
+                    }
+                  </h3>
                   <ul>
                     <li>
                       <div>
                         <div>
                           <span>
-                            Fortbildungsdiplom DFP, Continuing Medical Education (CME)
+                            {
+                              t("0.Qualifications.Certifications.0.Title")
+                            }
                           </span>
                           <p>
-                            Österreichische Ärztekammer
+                            {
+                              t("0.Qualifications.Certifications.0.Details")
+                            }
                           </p>
                         </div>
                       <span>
-                        Issued Feb 2025 · Expires Feb 2030
+                        {
+                          t("0.Qualifications.Certifications.0.Date")
+                        }
                       </span>
                       </div>
                     </li>
@@ -280,14 +264,20 @@ const About = () => {
                       <div>
                         <div>
                           <span>
-                            Nostrifikation (Human Medizin)
+                            {
+                              t("0.Qualifications.Certifications.1.Title")
+                            }
                           </span>
                           <p>
-                            Medical University of Vienna
+                            {
+                              t("0.Qualifications.Certifications.1.Details")
+                            }
                           </p>
                         </div>
                       <span>
-                        Issued Jul 2018
+                        {
+                          t("0.Qualifications.Certifications.1.Date")
+                        }
                       </span>
                       </div>
                     </li>
@@ -295,14 +285,20 @@ const About = () => {
                       <div>
                         <div>
                           <span>
-                            Specialty in Neurology- Master
+                            {
+                              t("0.Qualifications.Certifications.2.Title")
+                            }
                           </span>
                           <p>
-                            United Latino Students Association
+                            {
+                              t("0.Qualifications.Certifications.2.Details")
+                            }
                           </p>
                         </div>
                       <span>
-                        Issued May 2012
+                        {
+                          t("0.Qualifications.Certifications.2.Date")
+                        }
                       </span>
                       </div>
                     </li>
@@ -310,14 +306,20 @@ const About = () => {
                       <div>
                         <div>
                           <span>
-                            M.D
+                            {
+                              t("0.Qualifications.Certifications.3.Title")
+                            }
                           </span>
                           <p>
-                            University of Aleppo
+                            {
+                              t("0.Qualifications.Certifications.3.Details")
+                            }
                           </p>
                         </div>
                       <span>
-                        Issued Aug 2007
+                        {
+                          t("0.Qualifications.Certifications.3.Date")
+                        }
                       </span>
                       </div>
                     </li>

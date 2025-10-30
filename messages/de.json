@@ -223,6 +223,112 @@
     "Heading": "Datenschutz"
   },
   "AboutUs": {
-    "Heading": "Über uns"
+    "Heading": "Über uns",
+    "0": {
+      "Name": "Dr. Muhammad Yacob",
+      "Title": "Facharzt für Neurologie",
+      "Description": "Über zehn Jahre Erfahrung in Europa und dem Nahen Osten. Derzeit tätig als Neurologe und Post-Covid-Spezialist am Evangelischen Krankenhaus in Wien, Österreich, sowie Leiter einer Privatklinik. Zudem verfügt er über 15 Monate Erfahrung als wissenschaftlicher Forscher im Bereich Polypharmazie. Fließend in Arabisch, Englisch und Deutsch.",
+      "Qualifications": {
+        "Experience": {
+          "Heading": "Erfahrung",
+          "0": {
+            "Title": "Neurowissenschafts-Spezialist",
+            "Details": "Unfallkrankenhaus Meidling · Teilzeit",
+            "Date": "Sep 2023 - Gegenwärtig"
+          },
+          "1": {
+            "Title": "Private Klinik für Neurologie",
+            "Details": "Unfallkrankenhaus Meidling · Teilzeit",
+            "Date": "Nov 2021 - Gegenwärtig"
+          },
+          "2": {
+            "Title": "Neurologe, Facharzt für Neurologie",
+            "Details": "Austaria",
+            "Date": "Jun 2020 - Gegenwärtig"
+          },
+          "3": {
+            "Title": "Neurologe, Facharzt für Neurologie",
+            "Details": "Evangelisches Krankenhaus in Wien · Vollzeit",
+            "Date": "Nov 2020 - Sep 2023"
+          },
+          "4": {
+            "Title": "Assistenzarzt",
+            "Details": "Nationalkrankenhaus Villach Landeskrankenhaus Villach",
+            "Date": "Mär 2019 - Okt 2020"
+          },
+          "5": {
+            "Title": "Neurologe, Praktikum",
+            "Details": "Landeskrankenhaus Villach, National Hospital of Villach",
+            "Date": "Dez 2018 - Jan 2019"
+          },
+          "6": {
+            "Title": "Forscher",
+            "Details": "Landeskrankenhaus Villach - Nationales Krankenhaus Villach",
+            "Date": "Aug 2016 - Dez 2018"
+          },
+          "7": {
+            "Title": "Neurologe, Praktikum",
+            "Details": "Nationalkrankenhaus Villach, Österreich",
+            "Date": "Jan 2016 - Mai 2016"
+          },
+          "8": {
+            "Title": "Neurologe",
+            "Details": "Al Mahayni Krankenhaus",
+            "Date": "Jul 2012 - Okt 2013"
+          },
+          "9": {
+            "Title": "Neurologe",
+            "Details": "Mujtahed Krankenhaus Damaskus",
+            "Date": "Mai 2012 - Feb 2013"
+          },
+          "10": {
+            "Title": "Neurologe",
+            "Details": "Privatklinik in Damaskus",
+            "Date": "Dez 2010 - Mär 2012"
+          },
+          "11": {
+            "Title": "Neurologie",
+            "Details": "Fayez Halawe Krankenhaus",
+            "Date": "Jun 2012 - Dez 2012"
+          }
+        },
+        "Education": {
+          "Heading": "Ausbildung",
+          "0": {
+            "Title": "Master (Facharztausbildung), Neurologie",
+            "Details": "Techreen Krankenhaus und Damaskus Krankenhaus",
+            "Date": "2007 - 2012"
+          },
+          "1": {
+            "Title": "Bachelor-Abschluss, Medizin",
+            "Details": "Universität Aleppo – Medizinische Fakultät",
+            "Date": "2000 - 2007"
+          }
+        },
+        "Certifications": {
+          "Heading": "Lizenzen & Zertifikate",
+            "0": {
+              "Title": "Fortbildungsdiplom DFP – Kontinuierliche ärztliche Fortbildung (CME)",
+              "Details": "Österreichische Ärztekammer",
+              "Date": "Ausgestellt Feb 2025 · Gültig bis Feb 2030"
+            },
+            "1": {
+              "Title": "Nostrifikation (Humanmedizin)",
+              "Details": "Medizinische Universität Wien",
+              "Date": "Ausgestellt Jul 2018"
+            },
+            "2": {
+              "Title": "Fachrichtung Neurologie – Masterabschluss",
+              "Details": "United Latino Students Association",
+              "Date": "Ausgestellt Mai 2012"
+            },
+            "3": {
+              "Title": "Doktor der Medizin (M.D)",
+              "Details": "Universität Aleppo",
+              "Date": "Ausgestellt Aug 2007"
+            }
+        }
+      }
+    }
   }
 }

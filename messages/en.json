@@ -223,6 +223,113 @@
     "Heading": "Privacy Policy"
   },
   "AboutUs": {
-    "Heading": "About Us"
+    "Heading": "About Us",
+    "0": {
+      "Name": "Dr. Muhammad Yacob",
+      "Title": "Neurology Consultant",
+      "Description": "with ten years of experience in Europe and middle East . Currently working as neurologist and post Covid specialist at Evangelic hospital in Vienna, Austria, and running a privat clinic. In addition to 15 months of experience as a scientific researcher in polypharmacy . Multi-lingual fluency in Arabic, English, and German." ,
+      "Qualifications": {
+        "Experience": {
+          "Heading": "Experience",
+          "0": {
+            "Title": "Neuroscience Specialist",
+            "Details": "Unfallkrankenhaus Meidling · Part-time",
+            "Date": "Sep 2023 - Present"
+          },
+          "1": {
+            "Title": "Private Clinic for Neurology",
+            "Details": "Unfallkrankenhaus Meidling · Part-time",
+            "Date": "Nov 2021 - Present"
+          },
+          "2": {
+            "Title": "Neurologist, Facharzt für Neurologie",
+            "Details": "Austaria",
+            "Date": "Jun 2020 - Present"
+          },
+          "3": {
+            "Title": "Neurologist, Facharzt für Neurologie",
+            "Details": "Evangelisches Krankenhaus in Wien · Full-time",
+            "Date": "Nov 2020 - Sep 2023"
+          },
+          "4": {
+            "Title": "Asistantarzt",
+            "Details": "National Hospital of Villach Landeskrankenhaus Villach",
+            "Date": "Mar 2019 - Oct 2020"
+          },
+          "5": {
+            "Title": "Neurologist, Internship",
+            "Details": "Landeskrankenhaus Villach, National Hospital of Villach",
+            "Date": "Dec 2018 - Jan 2019"
+          },
+          "6": {
+            "Title": "Researcher",
+            "Details": "Landeskrankenhaus Villach - Villach National Hospital",
+            "Date": "Aug 2016 - Dec 2018"
+          },
+          "7": {
+            "Title": "Neurologist, Internship",
+            "Details": "Villach National Hospital, Austria",
+            "Date": "Jan 2016 - May 2016"
+          },
+          "8": {
+            "Title": "Neurologist",
+            "Details": "Al Mahayni Hospital",
+            "Date": "Jul 2012 - Oct 2013"
+          },
+          "9": {
+            "Title": "Neurologist",
+            "Details": "Mujtahed Hospital Damascus",
+            "Date": "May 2012 - Feb 2013"
+          },
+          "10": {
+            "Title": "Neurologist",
+            "Details": "Private Clinic in Damascus",
+            "Date": "Dec 2010 - Mar 2012"
+          },
+          "11": {
+            "Title": "Neurology",
+            "Details": "Fayez Halawe Hospital",
+            "Date": "Jun 2012 - Dec 2012"
+          
+          }  
+        },
+        "Education": {
+          "Heading": "Education",
+          "0": {
+            "Title": "Master ( Certificate of Speciality), Neurology",
+            "Details": "Techreen Hospital and Damascus Hospital",
+            "Date": "2007 - 2012"
+          },
+          "1": {
+            "Title": "Bachelor's degree, Medicine",
+            "Details": "Aleppo University - Medicine Faculty",
+            "Date": "2000 - 2007"
+          }
+        },
+        "Certifications": {
+          "Heading": "Licenses & Certifications",
+          "0": {
+            "Title": "Fortbildungsdiplom DFP, Continuing Medical Education (CME)",
+            "Details": "Austrian Medical Association",
+            "Date": "Issued Feb 2025 · Expires Feb 2030"
+          },
+          "1": {
+            "Title": "Nostrifikation (Human Medizin)",
+            "Details": "Medical University of Vienna",
+            "Date": "Issued Jul 2018"
+          },
+          "2": {
+            "Title": "Specialty in Neurology- Master",
+            "Details": "United Latino Students Association",
+            "Date": "Issued May 2012"
+          },
+          "3": {
+            "Title": "M.D",
+            "Details": "University of Aleppo",
+            "Date": "Issued Aug 2007"
+          }
+        }
+      }
+    }
   }
 }
