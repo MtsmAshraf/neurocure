@@ -12,7 +12,7 @@ const Contact = ({
     lo: string
 }) => {
 
-    const t = useTranslations("HomePage.Contact")
+    const t = useTranslations("Contact")
 
     const classNames = [
         lo === "ar" ? styles.ar : null,
@@ -41,10 +41,9 @@ const Contact = ({
                         <FontAwesomeIcon icon={faLocationPin}></FontAwesomeIcon>
                     </span>
                     <address>
-                    Gumpendorferstraße 59-61/2/ 
-                    Stock1- 1st Floor
-                    1060 Wien, Vienna,
-                    Austria
+                        {
+                            t("Address")
+                        }
                     </address>
                 </div>
             </div>

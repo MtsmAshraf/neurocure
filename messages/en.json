@@ -423,5 +423,9 @@
         }
       }
     }
+  },
+  "Contact": {
+    "Heading": "Contact Us",
+    "Address": "Gumpendorferstraße 59-61/2/ Stock1- 1st Floor 1060, Vienna, Austria"
   }
 }

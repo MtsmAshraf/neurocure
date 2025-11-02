@@ -423,5 +423,9 @@
         }
       }
     }
+  },
+  "Contact": {
+    "Heading": "Kontakt",
+    "Address": "Gumpendorferstraße 59-61/2, 1. Stock, 1060 Wien, Österreich"
   }
 }

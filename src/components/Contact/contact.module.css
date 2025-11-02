@@ -5,6 +5,9 @@
     box-shadow: var(--section-shadow);
     position: relative;
 }
+.contact.ar{
+    direction: rtl;
+}
 .contact > div:nth-child(2){
     display: flex;
     align-items: center;
@@ -59,6 +62,12 @@
     padding-left: 20px;
     place-content: center;
 }
+.contact.ar > div:nth-child(2) .info .address address{
+    border-left: none;
+    border-right: 1px solid #c8c5cd;
+    padding-left: 0px;
+    padding-right: 20px;
+}
 .contact .info .location{
     height: 400px;
     /* max-width: 50%; */
@@ -68,7 +77,8 @@
     border-radius: 20px;
     box-shadow: var(--sec-shadow);
     height: 400px;
-    width: 100%;
+    width: 700px;
+    max-width: 100%;
 }
 @media (max-width: 992px) {
     .contact > div:nth-child(2){
@@ -106,7 +116,7 @@
         max-width: 100%;
         width: 100%;
     }
-    .contact > div:nth-child(2) .info .address span{
+    .contact > div:nth-child(2) .info .address span svg{
         width: 100px !important;
     }
 }
