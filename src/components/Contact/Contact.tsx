@@ -34,7 +34,7 @@ const Contact = ({
                     <SocialUl />
                 </div>
                 <div className={styles.location}>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170130.3807588384!2d16.214834562549303!3d48.22034409583409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079e5136ca9f%3A0xfdc2e58a51a25b46!2sVienna%2C%20Austria!5e0!3m2!1sen!2seg!4v1761733194174!5m2!1sen!2seg" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.4693648411217!2d16.354313599999998!3d48.197574599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d078f2ac983c3%3A0x8633da6e859b51f9!2sGumpendorfer%20Str.%2059-61%2F2%2C%201060%20Wien%2C%20Austria!5e0!3m2!1sen!2seg!4v1762085964859!5m2!1sen!2seg" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className={styles.address}>
                     <span>
