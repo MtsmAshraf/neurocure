@@ -8,7 +8,7 @@ import Footer from "@/components/Footer/Footer";
 // import icon from "../../../public/images/logo.png"
 import icon from "./favicon.ico"
 // import Script from "next/script";
-import { El_Messiri, Montserrat } from "next/font/google";
+import { El_Messiri } from "next/font/google";
 import Contact from "@/components/Contact/Contact";
 // import FloatingContact from "@/components/FloatingContact/FloatingContact";
 // import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
