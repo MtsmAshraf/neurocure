@@ -236,6 +236,9 @@
     .contact > div:nth-child(2) .garages .wrapper .garage{
         width: calc((100% - 20px) / 2);
     }
+    .contact > div:nth-child(2) .directions .wrapper .method{
+        width: calc((100% - 20px) / 2);
+    }
 }
 @media (max-width: 600px) {
     .contact > div:nth-child(2){
@@ -254,6 +257,9 @@
         width: 100px !important;
     }
     .contact > div:nth-child(2) .garages .wrapper .garage{
+        width: 100%;
+    }
+    .contact > div:nth-child(2) .directions .wrapper .method{
         width: 100%;
     }
 }
