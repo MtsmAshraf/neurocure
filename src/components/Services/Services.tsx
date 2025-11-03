@@ -50,6 +50,7 @@ const Services = () => {
                 </h2>
                 <div className={styles.cards}>
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={stroke} alt={t("Sections.0.Cards.0.Title")} />
                         </div>
@@ -58,6 +59,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={migraine} alt={t("Sections.0.Cards.1.Title")} />
                         </div>
@@ -66,6 +68,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={ms} alt={t("Sections.0.Cards.2.Title")} />
                         </div>
@@ -74,6 +77,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={parkinson} alt={t("Sections.0.Cards.3.Title")} />
                         </div>
@@ -82,6 +86,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={epilepsy} alt={t("Sections.0.Cards.4.Title")} />
                         </div>
@@ -90,6 +95,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={diabeticPeripheralNeuropathy} alt={t("Sections.0.Cards.5.Title")} />
                         </div>
@@ -98,6 +104,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={trigeminalNeuralgia} alt={t("Sections.0.Cards.6.Title")} />
                         </div>
@@ -106,6 +113,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={myastheniaGravis} alt={t("Sections.0.Cards.7.Title")} />
                         </div>
@@ -114,6 +122,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={autonomicDisorders} alt={t("Sections.0.Cards.8.Title")} />
                         </div>
@@ -132,6 +141,7 @@ const Services = () => {
                 <div className={styles.cards}>
                         
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={anxiety} alt={t("Sections.1.Cards.0.Title")} />
                         </div>
@@ -140,6 +150,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={sleep} alt={t("Sections.1.Cards.1.Title")} />
                         </div>
@@ -148,6 +159,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={chronicNeuropathicPain} alt={t("Sections.1.Cards.2.Title")} />
                         </div>
@@ -165,6 +177,7 @@ const Services = () => {
                 
                 <div className={styles.cards}>
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={chronicFatigueSyndrome} alt={t("Sections.2.Cards.0.Title")} />
                         </div>
@@ -173,6 +186,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={postCovidSyndrome} alt={t("Sections.2.Cards.1.Title")} />
                         </div>
@@ -190,6 +204,7 @@ const Services = () => {
                 </h2>
                 <div className={styles.cards}>
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={chronicNeckPain} alt={t("Sections.3.Cards.0.Title")} />
                         </div>
@@ -198,6 +213,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={sciatica} alt={t("Sections.3.Cards.1.Title")} />
                         </div>
@@ -206,6 +222,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={herniatedDisc} alt={t("Sections.3.Cards.2.Title")} />
                         </div>
@@ -223,6 +240,7 @@ const Services = () => {
                 <div className={styles.cards}>
                         
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={tensionHeadache} alt={t("Sections.4.Cards.0.Title")} />
                         </div>
@@ -231,6 +249,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={clusterHeadache} alt={t("Sections.4.Cards.1.Title")} />
                         </div>
@@ -239,6 +258,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.card}>
+                        <div className={styles.overlay}></div>
                         <div className={styles.cardIcon}>
                             <Image src={facialNeuralgia} alt={t("Sections.4.Cards.2.Title")} />
                         </div>

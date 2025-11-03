@@ -35,7 +35,7 @@ const Footer = ({
                 <p>
                   Bank Austria: 
                   <span>
-                    IBAN: AT82120001XXXXXXXXXX. <br /> BIC: XXXXXXXXXX
+                    BIC: XXXXXXXXXX
                   </span>
                   {/* <br />
                   <b>

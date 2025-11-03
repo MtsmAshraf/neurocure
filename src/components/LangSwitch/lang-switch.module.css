@@ -24,13 +24,16 @@
     padding-right: 14px;
     border-bottom: 4px solid transparent;
     border-bottom: 4px solid var(--main-color);
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
 }
 .langSwitch span:hover,
 .langSwitch span.active{
     /* background-image: var(--main-gradient); */
     background-color: var(--sec-color);
-    color: #fff;
     border-bottom: 4px solid var(--main-color);
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
 }
 @media (max-width: 1200px) {
     .langSwitch{

@@ -27,10 +27,16 @@ export const metadata: Metadata = {
 };
 
 
-  const montserrat = Montserrat({
-    subsets: ["latin"],
-    weight: ["200", "400","700"], 
-  });
+  // const montserrat = Montserrat({
+  //   subsets: ["latin"],
+  //   weight: ["200", "400","700"], 
+  // });
+
+  // const arial = Arial({
+  //   subsets: ["latin"],
+  //   weight: ["200", "400","700"], 
+  // });
+
   const elMessiri = El_Messiri({
     subsets: ["arabic"],
     weight: ["400", "700"],
@@ -52,7 +58,12 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang={locale} className={locale === "ar" ? elMessiri.className : montserrat.className}>
+    // <html lang={locale} className={locale === "ar" ? elMessiri.className : montserrat.className}>
+    <html 
+      lang={locale} 
+      className={locale === "ar" ? `arabic-font ${elMessiri.className}` : "latin-font"}
+      // className={locale === "ar" ? elMessiri.className : ""}
+      >
       <body>
         <NextIntlClientProvider>
           <Header lo={locale}></Header>

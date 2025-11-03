@@ -26,16 +26,20 @@
     background-color: var(--sec-color);
     border-radius: 20px 20px 0px 0px;
     padding: 10px 20px;
-    color: #fff;
+    color: #000;
     text-align: center;
     position: sticky;
     top: 51px;
+    z-index: 2;
+    box-shadow: var(--main-shadow);
 }
 .services .section .cards{
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     border-radius: 0px 0px 20px 20px;
+    gap: 20px;
     overflow: hidden;
+    padding: 20px;
 }
 @media (max-width: 992px) {
     .services .section .cards{
@@ -50,10 +54,29 @@
 .services .card{
     background-color: #fff;
     border: 1px solid #eee;
-    padding: 30px;
+    /* padding: 30px; */
     transition: var(--main-transition);
     text-align: center;
     box-shadow: var(--sec-shadow);
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    min-height: 60px;
+    cursor: pointer;
+}
+.services .card .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000039;
+    backdrop-filter: blur(20px);
+    transition: var(--main-transition);
+    border-radius: 20px;
+}
+.services .card:hover .overlay{
+    opacity: 0;
 }
 .services .card .cardIcon{
     transition: var(--main-transition);
@@ -74,15 +97,49 @@
     object-fit: cover;
 }
 .services .card h4{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
-    color: var(--lighter-color);
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     transition: var(--main-transition);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--main-color);
+    width: 100%;
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .card:hover h4{
+    background-color: var(--main-trans-color);
+    backdrop-filter: blur(10px);
+    top: calc(100% - 120px);
 }
 .services .card p{
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    /* height: 0; */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    overflow: hidden;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 20px;
+    background-color: #fff;
+    transition: var(--main-transition);
+    transform: translateY(100%);
+    border-radius: 0px 0px 20px 20px;
+}
+.services .card:hover p{
+    transform: translateY(0%);
 }
 .services .card a{
     background-color: var(--main-color);

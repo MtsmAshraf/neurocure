@@ -7,19 +7,32 @@
 .socialUl a{
     width: 50px;
     height: 50px;
-    background-color: #c8c5cd;
-    color: #fff;
+    background-color: var(--sec-color);
     transition: var(--main-transition);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    border: 1px solid #000;
 }
 .socialUl svg{
     width: 25px;
     height: 25px;
 }
-.socialUl li:nth-of-type(1) a{
+.socialUl a:hover,
+.socialUl a:focus,
+.socialUl a:focus-visible{
+    background-color: var(--main-color);
+    color: #fff;
+    border: 1px solid  var(--main-color);
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: var(--main-shadow);
+}
+.socialUl li a{
+    background-color: var(--sec-color);
+    color: #000;
+}
+/* .socialUl li:nth-of-type(1) a{
     background-color: var(--sec-color);
 }
 .socialUl li:nth-of-type(2) a{
@@ -27,4 +40,4 @@
 }
 .socialUl li:nth-of-type(3) a{
     background-color: var(--main-color);
-}
+} */

@@ -46,11 +46,16 @@
     background-image: var(--main-gradient);
     color: #fff;
     transition: var(--main-transition);
+    border: 1px solid transparent;
+    font-size: 20px;
 }
-.hero .slide .text a:hover{
+.hero .slide .text a:hover,
+.hero .slide .text a:focus,
+.hero .slide .text a:focus-visible{
     background-image: none;
     background-color: #fff;
     color: #000;
+    border: 1px solid #000;
 }
 .hero .slide .img{
     width: 40%;
