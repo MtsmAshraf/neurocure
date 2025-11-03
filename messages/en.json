@@ -449,6 +449,29 @@
         }
       },
       "ViewButton": "View"
+    },
+    "Directions": {
+      "Heading": "Public transportation",
+      "0": {
+        "H2": "Subway",
+        "Ul": {
+          "0": "Neubaugasse (U3) – 5-7 minutes (walking)",
+          "1": "Pilgramgasse (U4) – 3-5 minutes (walking)"
+        }
+      },
+      "1": {
+        "H2": "Tram",
+        "Ul": {
+          "0": "Gumpendorfer Straße / Neubaugasse - Tram 18 - 5-7 minutes (walking)"
+        }
+      },
+      "2": {
+        "H2": "Bus",
+        "Ul": {
+          "0": "Haus des Meeres – Lines: 13A، 14A، 57A - 4-6 minutes (walking)",
+          "1": "Brückengasse – Lines: 57A - 2-3 minutes (walking)"
+        }
+      }
     }
   }
 }

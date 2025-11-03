@@ -449,6 +449,29 @@
         }
       },
       "ViewButton": "Ansehen"
+    },
+    "Directions": {
+      "Heading": "Öffentliche Verkehrsmittel",
+      "0": {
+        "H2": "U-Bahn",
+        "Ul": {
+          "0": "Neubaugasse (U3) – 5–7 Minuten zu Fuß",
+          "1": "Pilgramgasse (U4) – 3–5 Minuten zu Fuß"
+        }
+      },
+      "1": {
+        "H2": "Straßenbahn",
+        "Ul": {
+          "0": "Gumpendorfer Straße / Neubaugasse – Linie 18 – 5–7 Minuten zu Fuß"
+        }
+      },
+      "2": {
+        "H2": "Bus",
+        "Ul": {
+          "0": "Haus des Meeres – Linien: 13A, 14A, 57A – 4–6 Minuten zu Fuß",
+          "1": "Brückengasse – Linie: 57A – 2–3 Minuten zu Fuß"
+        }
+      }
     }
   }
 }

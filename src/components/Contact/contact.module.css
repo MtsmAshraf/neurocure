@@ -205,6 +205,8 @@
     align-items: center;
     justify-content: center;
     font-size: 22px;
+    border-radius: 50px 50px 0px 0px;
+    border-bottom: 3px solid var(--sec-color);
 }
 .contact > div:nth-child(2) .directions .wrapper ul{
     padding: 20px 20px 10px 40px;
@@ -213,6 +215,10 @@
     border-radius: 0px 0px 20px 20px;
     border: 1px solid #ccc;
     box-shadow: var(--main-shadow);
+}
+
+.contact.ar > div:nth-child(2) .directions .wrapper ul{
+    padding: 20px 40px 10px 20px;
 }
 .contact > div:nth-child(2) .directions .wrapper ul li{
     color: #000;

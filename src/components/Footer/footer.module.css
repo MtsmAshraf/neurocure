@@ -68,11 +68,10 @@
 .footer > :nth-child(2) .pages > div a{
     padding: 4px 20px;
     width: fit-content;
-    border-radius: 8px;
+    border-radius: 30px;
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
-    font-size: 22px;
 }
 .footer > :nth-child(2) .pages > div a:hover{
     background-image: var(--main-gradient);

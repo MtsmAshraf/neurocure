@@ -130,20 +130,30 @@ const Contact = ({
             </div>
             <div className={styles.directions}>
                 <h2>
-                    Public transportation
+                    {
+                        t("Directions.Heading")
+                    }
                 </h2>
                 <div className={styles.wrapper}>
                     <div className={styles.method}>
                         <div className={styles.methodImg}>
                             <FontAwesomeIcon icon={faTrainSubway} />
                         </div>
-                        <h3>Subway</h3>
+                        <h3>
+                            {
+                                t("Directions.0.H2")
+                            }
+                        </h3>
                         <ul>
                             <li>
-                                Neubaugasse (U3) – 5-7 minutes (walking)
+                                {
+                                    t("Directions.0.Ul.0")
+                                }
                             </li>
                             <li>
-                                Pilgramgasse (U4) – 3-5 minutes (walking)
+                                {
+                                    t("Directions.0.Ul.1")
+                                }
                             </li>
                         </ul>
                     </div>
@@ -151,10 +161,16 @@ const Contact = ({
                         <div className={styles.methodImg}>
                             <FontAwesomeIcon icon={faTrainTram} />
                         </div>
-                        <h3>Tram</h3>
+                        <h3>
+                            {
+                                t("Directions.1.H2")
+                            }
+                        </h3>
                         <ul>
                             <li>
-                                Gumpendorfer Straße / Neubaugasse - Tram 18 - 5-7 minutes (walking)
+                                {
+                                    t("Directions.1.Ul.0")
+                                }
                             </li>
                         </ul>
                     </div>
@@ -162,13 +178,21 @@ const Contact = ({
                         <div className={styles.methodImg}>
                             <FontAwesomeIcon icon={faBus} />
                         </div>
-                        <h3>Bus</h3>
+                        <h3>
+                            {
+                                t("Directions.2.H2")
+                            }
+                        </h3>
                         <ul>
                             <li>
-                                Haus des Meeres – Lines: 13A، 14A، 57A - 4-6 minutes (walking)
+                                {
+                                    t("Directions.2.Ul.0")
+                                }
                             </li>
                             <li>
-                                Brückengasse – Lines: 57A - 2-3 minutes (walking)
+                                {
+                                    t("Directions.2.Ul.1")
+                                }
                             </li>
                         </ul>
                     </div>
