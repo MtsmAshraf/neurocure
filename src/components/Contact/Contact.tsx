@@ -4,7 +4,7 @@ import MainHeading from '../MainHeading/MainHeading'
 import SocialUl from '../SocialUl/SocialUl'
 import { useTranslations } from 'next-intl'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationPin } from '@fortawesome/free-solid-svg-icons'
+import { faBus, faLocationPin, faTrainSubway, faTrainTram } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image'
 
 import garageOne from "../../../public/images/apcoa.svg"
@@ -57,11 +57,7 @@ const Contact = ({
                     Three garage/parking options near the clinic address
                 </h2>
                 <div className={styles.wrapper}>
-                    <a 
-                        href='https://www.apcoa.at/parken/wien/gumpendorfer-strasse-wien-apcoa/?utm_source=chatgpt.com' 
-                        target='_blank' 
-                        className={styles.garage}
-                    >
+                    <div className={styles.garage}>
                         <div className={styles.garageImg}>
                             <Image src={garageOne} alt='Apcoa Logo'></Image>
                         </div>
@@ -79,12 +75,11 @@ const Contact = ({
                                 Entry level: 2.3m approx.
                             </li>
                         </ul>
-                    </a>
-                    <a 
-                        href='http://bestinparking.at/garage/wien/damboeckgasse-4?utm_source=chatgpt.com' 
-                        target='_blank' 
-                        className={styles.garage}
-                    >
+                        <a href="https://www.apcoa.at/parken/wien/gumpendorfer-strasse-wien-apcoa/?utm_source=chatgpt.com" target='_blank'>
+                            View
+                        </a>
+                    </div>
+                    <div className={styles.garage}>
                         <div className={styles.garageImg}>
                             <Image src={garageTwo} alt='Apcoa Logo'></Image>
                         </div>
@@ -99,12 +94,11 @@ const Contact = ({
                                 Phone: <a href="tel:+4315131241">+4315131241</a>
                             </li>
                         </ul>
-                    </a>
-                    <a 
-                        href='https://www.apcoa.at/parken/wien/gumpendorfer-strasse-wien-apcoa/?utm_source=chatgpt.com' 
-                        target='_blank' 
-                        className={styles.garage}
-                    >
+                        <a href="http://bestinparking.at/garage/wien/damboeckgasse-4?utm_source=chatgpt.com" target='_blank'>
+                            View
+                        </a>
+                    </div>
+                    <div className={styles.garage}>
                         <div className={styles.garageImg}>
                             <Image src={garageThree} alt='Apcoa Logo'></Image>
                         </div>
@@ -119,11 +113,56 @@ const Contact = ({
                                 Phone: <a href="tel:+4315872724">+4315872724</a>
                             </li>
                         </ul>
-                    </a>
+                    </div>
                 </div>
             </div>
             <div className={styles.directions}>
+                <h2>
+                    Public transportation
+                </h2>
+                <div className={styles.wrapper}>
+                    <div className={styles.method}>
+                        <div className={styles.methodImg}>
+                            <FontAwesomeIcon icon={faTrainSubway} />
+                        </div>
+                        <h3>Subway</h3>
+                        <ul>
+                            <li>
+                                Neubaugasse (U3) – 5-7 minutes (walking)
+                            </li>
+                            <li>
+                                Pilgramgasse (U4) – 3-5 minutes (walking)
+                            </li>
+                        </ul>
+                    </div>
+                    <div className={styles.method}>
+                        <div className={styles.methodImg}>
+                            <FontAwesomeIcon icon={faTrainTram} />
+                        </div>
+                        <h3>Tram</h3>
+                        <ul>
+                            <li>
+                                Gumpendorfer Straße / Neubaugasse - Tram 18 - 5-7 minutes (walking)
+                            </li>
+                        </ul>
+                    </div>
+                    <div className={styles.method}>
+                        <div className={styles.methodImg}>
+                            <FontAwesomeIcon icon={faBus} />
+                        </div>
+                        <h3>Bus</h3>
+                        <ul>
+                            <li>
+                                Haus des Meeres – Lines: 13A، 14A، 57A - 4-6 minutes (walking)
+                            </li>
+                            <li>
+                                Brückengasse – Lines: 57A - 2-3 minutes (walking)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+
         </div>
     </section>
   )
