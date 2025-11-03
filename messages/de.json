@@ -13,7 +13,7 @@
     "Info": "Information",
     "Phone": "Telefon",
     "Note": "(Bitte geben Sie bei Überweisungen stets die Rechnungsnummer im Betreff an.)",
-    "Datenschutz": "Datenschutz"
+    "Datenschutz": "Unsere Richtlinien"
   },
   "BookBtn": {
     "Text":"Termin buchen",
@@ -220,7 +220,7 @@
     "Heading": "Die Ordination"
   },
   "Datenschutz": {
-    "Heading": "Datenschutz"
+    "Heading": "Unsere Richtlinien"
   },
   "AboutUs": {
     "Heading": "Über uns",

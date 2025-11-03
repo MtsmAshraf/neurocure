@@ -42,7 +42,7 @@
 }
 .hero .slide .text a{
     padding: 10px 30px;
-    border-radius: 20px;
+    border-radius: 30px;
     background-image: var(--main-gradient);
     color: #fff;
     transition: var(--main-transition);
