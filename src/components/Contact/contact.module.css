@@ -124,6 +124,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    direction: ltr !important;
+    text-align: center;
 }
 .contact > div:nth-child(2) .garages .wrapper ul{
     padding: 0px 20px 0px 40px;
@@ -131,12 +133,19 @@
     margin-bottom: 20px;
     list-style: disc;
 }
+.contact.ar > div:nth-child(2) .garages .wrapper ul{
+    padding: 0px 40px 0px 20px;
+}
 .contact > div:nth-child(2) .garages .wrapper ul li{
     color: #000;
     margin-bottom: 10px;
 }
 .contact > div:nth-child(2) .garages .wrapper ul li a{
     text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact.ar > div:nth-child(2) .garages .wrapper ul li a{
+    direction: ltr !important;
 }
 .contact > div:nth-child(2) .garages .wrapper .garage > a{
     display: block;

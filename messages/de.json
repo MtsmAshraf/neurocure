@@ -426,6 +426,29 @@
   },
   "Contact": {
     "Heading": "Kontakt",
-    "Address": "Gumpendorferstraße 59-61/2, 1. Stock, 1060 Wien, Österreich"
+    "Address": "Gumpendorferstraße 59-61/2, 1. Stock, 1060 Wien, Österreich",
+    "Garages": {
+      "Heading": "Parkmöglichkeiten in der Nähe der Klinikadresse",
+      "0": {
+        "Ul": {
+          "0": "Adresse: Gumpendorfer Str. 89, 1060 Wien",
+          "1": "Rund um die Uhr geöffnet",
+          "2": "Eingangshöhe: ca. 2,3 m"
+        }
+      },
+      "1": {
+        "Ul": {
+          "0": "Adresse: Damböckgasse 4, 1060 Wien, Österreich",
+          "1": "Telefon:"
+        }
+      },
+      "2": {
+        "Ul": {
+          "0": "Adresse: Gumpendorfer Str. 6, 1060 Wien, Österreich",
+          "1": "Telefon:"
+        }
+      },
+      "ViewButton": "Ansehen"
+    }
   }
 }

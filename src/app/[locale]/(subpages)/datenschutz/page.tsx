@@ -29,6 +29,7 @@ const Datenschutz = async ({
                             Your well-being and medical care are our top priorities.
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 Clinic Policy:
                             </h3>
@@ -78,6 +79,7 @@ const Datenschutz = async ({
                             A translator can be arranged if needed for patients who do not speak German, Arabic or English.
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 Cancellation Policy:
                             </h3>
@@ -91,6 +93,7 @@ const Datenschutz = async ({
                             Delays of more than 10 minutes may result in rescheduling.
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 Payment:
                             </h3>
@@ -104,6 +107,7 @@ const Datenschutz = async ({
                             A list of common additional fees (e.g., reports, therapies, extended examinations) is available upon request.
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 Communication:
                             </h3>
@@ -117,6 +121,7 @@ const Datenschutz = async ({
                             The clinic is not responsible for medical advice given via unofficial channels.
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 Data Protection:
                             </h3>
@@ -133,6 +138,7 @@ const Datenschutz = async ({
                             No data sharing with third parties without patient consent, except where legally required.
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 Patient Rights:
                             </h3>
@@ -158,8 +164,9 @@ const Datenschutz = async ({
                             Ihr Wohlbefinden und Ihre medizinische Versorgung stehen für uns im Mittelpunkt.
                             <br />
                             <br />
+                            <hr />
                             <h3>
-                                Ordinationsrichtlinien
+                                Ordinationsrichtlinien:
                             </h3>
                             <br />
                             Termine nur nach vorheriger Vereinbarung.
@@ -207,8 +214,9 @@ const Datenschutz = async ({
                             Wir können bei Bedarf einen Dolmetscher für Patienten bereitstellen, die nicht Deutsch, Arabisch oder Englisch sprechen.
                             <br />
                             <br />
+                            <hr />
                             <h3>
-                                Absageregelung
+                                Absageregelung:
                             </h3>
                             <br />
                             Termine müssen mindestens 24 Stunden im Voraus abgesagt werden.
@@ -220,8 +228,9 @@ const Datenschutz = async ({
                             Bei Verspätung von über 10 Minuten kann der Termin verschoben werden.
                             <br />
                             <br />
+                            <hr />
                             <h3>
-                                Bezahlung
+                                Bezahlung:
                             </h3>
                             <br />
                             Die Konsultationsgebühr ist nach jedem Termin bar oder mit Bankkarte zu bezahlen.
@@ -233,8 +242,9 @@ const Datenschutz = async ({
                             Eine Übersicht häufiger zusätzlicher Gebühren (z. B. spezielle Berichte, Therapien, längere Untersuchungen) ist auf Anfrage verfügbar.
                             <br />
                             <br />
+                            <hr />
                             <h3>
-                                Kommunikation
+                                Kommunikation:
                             </h3>
                             <br />
                             Alle Kommunikation erfolgt ausschließlich über die offiziellen Kanäle (Telefon und E-Mail-Adresse der Praxis).
@@ -246,8 +256,9 @@ const Datenschutz = async ({
                             Die Praxis haftet nicht für medizinische Beratungen, die über unoffizielle Kanäle erfolgen.
                             <br />
                             <br />
+                            <hr />
                             <h3>
-                                Datenschutz
+                                Datenschutz:
                             </h3>
                             <br />
                             Alle Daten werden gemäß der DSGVO vertraulich behandelt.
@@ -262,8 +273,9 @@ const Datenschutz = async ({
                             Keine Weitergabe an Dritte ohne Zustimmung, außer gesetzlich erforderlich.
                             <br />
                             <br />
+                            <hr />
                             <h3>
-                                Patientenrechte
+                                Patientenrechte:
                             </h3>
                             <br />
                             Patienten haben das Recht auf Information, Einsicht in Unterlagen und respektvolle Behandlung.
@@ -288,6 +300,7 @@ const Datenschutz = async ({
                             سلامتكم وجودة الرعاية الطبية هدفنا الأول.
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 سياسة العيادة:
                             </h3>
@@ -337,6 +350,7 @@ const Datenschutz = async ({
                             يمكن توفير مترجم عند الحاجة للمرضى الذين لا يتحدثون الألمانية أو الإنجليزية أو العربية.
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 سياسة الإلغاء:
                             </h3>
@@ -350,6 +364,7 @@ const Datenschutz = async ({
                             في حال التأخر عن الموعد أكثر من 10 دقائق، قد يتم إعادة جدولته.
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 الدفع:
                             </h3>
@@ -363,6 +378,7 @@ const Datenschutz = async ({
                             يمكن طلب قائمة بالرسوم الإضافية الشائعة (مثل التقارير، العلاج، أو الفحوصات الممتدة).
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 التواصل:
                             </h3>
@@ -376,6 +392,7 @@ const Datenschutz = async ({
                             العيادة غير مسؤولة عن الاستشارات الطبية عبر القنوات غير الرسمية.
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 حماية البيانات:
                             </h3>
@@ -392,6 +409,7 @@ const Datenschutz = async ({
                             لا يتم تبادل أي بيانات مع أطراف أخرى دون موافقة المريض، إلا إذا كان ذلك مطلوباً قانوناً.
                             <br />
                             <br />
+                            <hr />
                             <h3>
                                 حقوق المرضى:
                             </h3>

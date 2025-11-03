@@ -426,6 +426,29 @@
   },
   "Contact": {
     "Heading": "Contact Us",
-    "Address": "Gumpendorferstraße 59-61/2/ Stock1- 1st Floor 1060, Vienna, Austria"
+    "Address": "Gumpendorferstraße 59-61/2/ Stock1- 1st Floor 1060, Vienna, Austria",
+    "Garages": {
+      "Heading": "Garage/parking options near the clinic address",
+      "0": {
+        "Ul": {
+          "0": "Address: Gumpendorfer Str. 89، 1060, Vienna",
+          "1": "Open 24 hours",
+          "2": "Entry level: 2.3m approx."
+        }
+      },
+      "1": {
+        "Ul": {
+          "0": "Address: Damböckgasse 4, 1060 Vienna, Austria",
+          "1": "Phone:"
+        }
+      },
+      "2": {
+        "Ul": {
+          "0": "Address: Gumpendorfer Str. 6, 1060 Vienna, Austria",
+          "1": "Phone:"
+        }
+      },
+      "ViewButton": "View"
+    }
   }
 }

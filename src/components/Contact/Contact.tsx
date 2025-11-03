@@ -54,7 +54,9 @@ const Contact = ({
             </div>
             <div className={styles.garages}>
                 <h2>
-                    Three garage/parking options near the clinic address
+                    {
+                        t("Garages.Heading")
+                    }
                 </h2>
                 <div className={styles.wrapper}>
                     <div className={styles.garage}>
@@ -66,13 +68,19 @@ const Contact = ({
                         </h3>
                         <ul>
                             <li>
-                                Address: Gumpendorfer Str. 89، 1060, Vienna. 
+                                {
+                                    t("Garages.0.Ul.0")
+                                }
                             </li>
                             <li>
-                                Open 24 hr
+                                {
+                                    t("Garages.0.Ul.1")
+                                }
                             </li>
                             <li>
-                                Entry level: 2.3m approx.
+                                {
+                                    t("Garages.0.Ul.2")
+                                }
                             </li>
                         </ul>
                         <a href="https://www.apcoa.at/parken/wien/gumpendorfer-strasse-wien-apcoa/?utm_source=chatgpt.com" target='_blank'>
@@ -88,10 +96,12 @@ const Contact = ({
                         </h3>
                         <ul>
                             <li>
-                                Address: Damböckgasse 4, 1060 Wien, Austria
+                                {
+                                    t("Garages.1.Ul.0")
+                                }
                             </li>
                             <li>
-                                Phone: <a href="tel:+4315131241">+4315131241</a>
+                                {t("Garages.1.Ul.1")} <a href="tel:+4315131241" target='_blank'>004315131241</a>
                             </li>
                         </ul>
                         <a href="http://bestinparking.at/garage/wien/damboeckgasse-4?utm_source=chatgpt.com" target='_blank'>
@@ -107,10 +117,12 @@ const Contact = ({
                         </h3>
                         <ul>
                             <li>
-                                Address: Gumpendorfer Str. 6, 1060 Wien, Austria
+                                {
+                                    t("Garages.2.Ul.0")
+                                }
                             </li>
                             <li>
-                                Phone: <a href="tel:+4315872724">+4315872724</a>
+                                {t("Garages.2.Ul.1")} <a href="tel:+4315872724" target='_blank'>004315872724</a>
                             </li>
                         </ul>
                     </div>
