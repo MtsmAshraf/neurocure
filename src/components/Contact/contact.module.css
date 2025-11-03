@@ -11,7 +11,7 @@
 .contact > div:nth-child(2){
     display: flex;
     align-items: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin-top: 40px;
     opacity: 0;
     transform: translateY(100px);
@@ -81,6 +81,60 @@
     width: 700px;
     max-width: 100%;
 }
+.contact > div:nth-child(2) .garages{
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+.contact > div:nth-child(2) .garages h2{
+    text-align: center;
+}
+.contact > div:nth-child(2) .garages .wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.contact > div:nth-child(2) .garages .wrapper .garage{
+    width: calc((100% - 40px) / 3);
+    background-color: #fff;
+    box-shadow: var(--main-shadow);
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact > div:nth-child(2) .garages .wrapper .garageImg{
+    height: 150px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.contact > div:nth-child(2) .garages .wrapper .garageImg img{
+    object-fit: contain;
+    height: 100%;
+}
+.contact > div:nth-child(2) .garages .wrapper h3{
+    padding: 20px;
+    height: 70px;
+    background-color: var(--main-color);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact > div:nth-child(2) .garages .wrapper ul{
+    padding: 20px 20px 10px 40px;
+    list-style: disc;
+}
+.contact > div:nth-child(2) .garages .wrapper ul li{
+    color: #000;
+    margin-bottom: 10px;
+}
+.contact > div:nth-child(2) .garages .wrapper ul li a{
+    text-decoration: underline;
+}
 @media (max-width: 992px) {
     .contact > div:nth-child(2){
         /* flex-direction: column; */
@@ -102,10 +156,12 @@
         max-width: 100%;
         /* width: 70%; */
     }
+    .contact > div:nth-child(2) .garages .wrapper .garage{
+        width: calc((100% - 20px) / 2);
+    }
 }
 @media (max-width: 600px) {
     .contact > div:nth-child(2){
-        flex-direction: column-reverse;
         gap: 40px;
     }
     .contact > div:nth-child(2) .info{
@@ -119,5 +175,8 @@
     }
     .contact > div:nth-child(2) .info .address span svg{
         width: 100px !important;
+    }
+    .contact > div:nth-child(2) .garages .wrapper .garage{
+        width: 100%;
     }
 }
