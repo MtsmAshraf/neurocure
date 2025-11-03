@@ -30,7 +30,7 @@
     text-align: center;
     position: sticky;
     top: 51px;
-    z-index: 2;
+    z-index: 3;
     box-shadow: var(--main-shadow);
 }
 .services .section .cards{
@@ -72,7 +72,8 @@
     height: 100%;
     background-color: #00000039;
     backdrop-filter: blur(20px);
-    transition: var(--main-transition);
+    transition: var(--animation-transition);
+    transition-duration: 0.3s;
     border-radius: 20px;
 }
 .services .card:hover .overlay{
@@ -101,7 +102,8 @@
     font-weight: bold;
     /* margin-top: 20px;
     margin-bottom: 20px; */
-    transition: var(--main-transition);
+    transition: var(--animation-transition);
+    transition-duration: 0.3s;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -134,12 +136,15 @@
     font-size: 18px;
     padding: 20px;
     background-color: #fff;
-    transition: var(--main-transition);
+    transition: var(--animation-transition);
+    transition-duration: 0.3s;
     transform: translateY(100%);
     border-radius: 0px 0px 20px 20px;
+    filter: blur(20px);
 }
 .services .card:hover p{
     transform: translateY(0%);
+    filter: blur(0px);
 }
 .services .card a{
     background-color: var(--main-color);
