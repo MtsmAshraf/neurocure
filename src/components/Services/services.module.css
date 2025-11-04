@@ -73,6 +73,7 @@
     background-color: #00000039;
     backdrop-filter: blur(20px);
     transition: var(--animation-transition);
+    filter: grayscale(100%);
     transition-duration: 0.3s;
     border-radius: 20px;
 }
@@ -83,7 +84,7 @@
     transition: var(--main-transition);
     width: 100%;
     aspect-ratio: 1;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,8 +119,9 @@
 }
 .services .card:hover h4{
     background-color: var(--main-trans-color);
-    backdrop-filter: blur(10px);
-    top: calc(100% - 120px);
+    backdrop-filter: blur(20px);
+    top: calc(100% - 110px);
+    height: 60px;
 }
 .services .card p{
     /* margin-bottom: 20px; */

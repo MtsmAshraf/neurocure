@@ -15,7 +15,7 @@
     padding: 5px 20px;
     border-radius: 40px 40px 0px 0px;
     min-width: 300px;
-    max-width: calc(100vw - 80px);
+    /* max-width: calc(100vw - 80px); */
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -40,7 +40,14 @@
     box-shadow: var(--main-shadow);
 }
 @media (max-width: 767px) {
+    .mainHeading{
+        /* width: 100%; */
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
     .mainHeading h2{
         font-size: 28px;
+        width: 100%;
     }
 }

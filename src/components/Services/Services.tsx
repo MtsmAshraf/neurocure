@@ -4,7 +4,7 @@ import styles from "./services.module.css"
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 
-import tensionHeadache from "../../../public/images/tension-headache.jpg";
+import tensionHeadache from "../../../public/images/tension-headache.png";
 import chronicFatigueSyndrome from "../../../public/images/chronic-fatigue-syndrome.jpg";
 import facialNeuralgia from "../../../public/images/facial-neuralgia.jpg";
 import clusterHeadache from "../../../public/images/cluster-headache.png";
