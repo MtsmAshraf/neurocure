@@ -32,19 +32,34 @@ const Footer = ({
                 <a href="https://www.NeuroCure.at">
                   www.NeuroCure.at    
                 </a>
-                <p>
-                  Bank Austria: 
-                  <span>
-                    BIC: XXXXXXXXXX
-                  </span>
-                  {/* <br />
-                  <b>
-                    {t("Note")}
-                  </b> */}
-                </p>
               </div>
             </div>
             <div className={styles.pages}>
+              <h4>
+                {
+                  t("Pages")
+                }
+              </h4>
+              <div>
+                <Link href={"/"}>
+                  {t("Home")}
+                </Link>
+              </div>
+              <div>
+                <Link href={"/services"}>
+                  {t("Services")}
+                </Link>
+              </div>
+              <div>
+                <Link href={"/about"}>
+                  {t("AboutUs")}
+                </Link>
+              </div>
+              <div>
+                <Link href={"/contact"}>
+                  {t("ContactUs")}
+                </Link>
+              </div>
               <div>
                 <Link href={"/datenschutz"}>
                   {t("Datenschutz")}

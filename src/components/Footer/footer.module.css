@@ -62,10 +62,21 @@
     gap: 5px;
 }
 .footer > :nth-child(2) .pages h4{
-    padding-left: 20px;
     font-size: 20px;
 }
+.footer > :nth-child(2) .pages > div:not(:last-child){
+    margin-bottom: 10px;
+}
 .footer > :nth-child(2) .pages > div a{
+    color: #fff;
+}
+.footer > :nth-child(2) .pages > div:not(:last-child) a{
+    text-decoration: underline;
+}
+.footer > :nth-child(2) .pages > div a:hover{
+    color: var(--main-color);
+}
+.footer > :nth-child(2) .pages > div:last-child a{
     padding: 4px 20px;
     width: fit-content;
     border-radius: 30px;
@@ -73,7 +84,7 @@
     color: #fff;
     border: 1px solid #fff;
 }
-.footer > :nth-child(2) .pages > div a:hover{
+.footer > :nth-child(2) .pages > div:last-child a:hover{
     background-image: var(--main-gradient);
     border: 1px solid #000;
 }
@@ -98,13 +109,14 @@
 
 @media (max-width: 767px) {
     .footer > :nth-child(2){
-        flex-direction: column;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
     }
     .footer > :nth-child(2) .pages h4{
         padding-left: 0px;
     }
-    .footer > :nth-child(2) .pages > div a{
+    /* .footer > :nth-child(2) .pages > div a{
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 }

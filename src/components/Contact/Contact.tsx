@@ -46,9 +46,10 @@ const Contact = ({
                         <FontAwesomeIcon icon={faLocationPin}></FontAwesomeIcon>
                     </span>
                     <address>
-                        {
+                        {/* {
                             t("Address")
-                        }
+                        } */}
+                        Gumpendorferstraße 59-61/2/ Stock1- 1st Floor 1060, Vienna, Austria
                     </address>
                 </div>
             </div>

@@ -13,6 +13,11 @@
     "Info": "Information",
     "Phone": "Phone",
     "Note": "(Please always include the invoice number in the subject line when making transfers)",
+    "Pages": "Pages",
+    "Home": "Home",
+    "Services": "Services",
+    "ContactUs": "Contact Us",
+    "AboutUs": "About Us",
     "Datenschutz": "Our Policies"
   },
   "BookBtn": {
