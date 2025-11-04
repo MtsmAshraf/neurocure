@@ -1,0 +1,78 @@
+
+.directions{
+    margin-top: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.directions h2{
+    text-align: center;
+}
+.directions .wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.directions .wrapper .method{
+    width: calc((100% - 40px) / 3);
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.directions .wrapper .methodImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.directions .wrapper .methodImg svg{
+    font-size: 100px;
+    background-color: var(--sec-color);
+    padding: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: var(--sec-shadow);
+}
+.directions .wrapper h3{
+    padding: 20px;
+    height: 70px;
+    background-color: var(--main-color);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 50px 50px 0px 0px;
+    border-bottom: 3px solid var(--sec-color);
+}
+.directions .wrapper ul{
+    padding: 20px 20px 10px 40px;
+    list-style: disc;
+    background-color: #fff;
+    border-radius: 0px 0px 20px 20px;
+    border: 1px solid #ccc;
+    box-shadow: var(--main-shadow);
+}
+
+.directions.ar .wrapper ul{
+    padding: 20px 40px 10px 20px;
+}
+.directions .wrapper ul li{
+    color: #000;
+    margin-bottom: 10px;
+}
+.directions .wrapper ul li a{
+    text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+    .directions .wrapper .method{
+        width: calc((100% - 20px) / 2);
+    }
+}
+@media (max-width: 600px) {
+    .directions .wrapper .method{
+        width: 100%;
+    }
+}

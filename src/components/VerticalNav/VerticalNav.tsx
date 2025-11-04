@@ -46,6 +46,13 @@ const VerticalNav = ({
                     }
                 </Link>
             </li>
+            <li>
+                <Link className={pathname === `/${lo}/how-to-reach` ? styles.active : ""} href={'/how-to-reach'}>
+                    {
+                        t("HowToReach")
+                    }
+                </Link>
+            </li>
         </ul>
         <div className={styles.social}>
             <SocialUl />

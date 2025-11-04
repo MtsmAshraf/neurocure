@@ -7,6 +7,7 @@
     "Pages": "Seiten",
     "ContactUs": "Kontakt",
     "AboutUs": "Über uns",
+    "HowToReach": "Weg zur Klinik",
     "Language": "Sprache"
   },
   "Footer": {
@@ -18,6 +19,7 @@
     "Services": "Leistungen",
     "ContactUs": "Kontakt",
     "AboutUs": "Über uns",
+    "HowToReach": "Weg zur Klinik",
     "Datenschutz": "Unsere Richtlinien"
   },
   "BookBtn": {
@@ -456,7 +458,7 @@
       "ViewButton": "Ansehen"
     },
     "Directions": {
-      "Heading": "Öffentliche Verkehrsmittel",
+      "Heading": "Weg zur Klinik",
       "0": {
         "H2": "U-Bahn",
         "Ul": {

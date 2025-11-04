@@ -44,6 +44,13 @@ const Nav = ({
                     }
                 </Link>
             </li>
+            <li>
+                <Link className={pathname === `/${lo}/how-to-reach` ? styles.active : ""} href={'/how-to-reach'}>
+                    {
+                        t("HowToReach")
+                    }
+                </Link>
+            </li>
         </ul>
         <LangSwitch lo={lo} />
     </nav>

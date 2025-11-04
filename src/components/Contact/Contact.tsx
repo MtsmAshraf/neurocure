@@ -4,12 +4,9 @@ import MainHeading from '../MainHeading/MainHeading'
 import SocialUl from '../SocialUl/SocialUl'
 import { useTranslations } from 'next-intl'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBus, faLocationPin, faTrainSubway, faTrainTram } from '@fortawesome/free-solid-svg-icons'
-import Image from 'next/image'
+import { faLocationPin } from '@fortawesome/free-solid-svg-icons'
 
-import garageOne from "../../../public/images/apcoa.svg"
-import garageTwo from "../../../public/images/best-parking.svg"
-import garageThree from "../../../public/images/parking-3.png"
+import { Link } from '@/i18n/navigation'
 
 const Contact = ({
     lo
@@ -53,153 +50,13 @@ const Contact = ({
                     </address>
                 </div>
             </div>
-            <div className={styles.garages}>
-                <h2>
-                    {
-                        t("Garages.Heading")
-                    }
-                </h2>
-                <div className={styles.wrapper}>
-                    <div className={styles.garage}>
-                        <div className={styles.garageImg}>
-                            <Image src={garageOne} alt='Apcoa Logo'></Image>
-                        </div>
-                        <h3>
-                            Tiefgarage Gumpendorfer Strasse – APCOA
-                        </h3>
-                        <ul>
-                            <li>
-                                {
-                                    t("Garages.0.Ul.0")
-                                }
-                            </li>
-                            <li>
-                                {
-                                    t("Garages.0.Ul.1")
-                                }
-                            </li>
-                            <li>
-                                {
-                                    t("Garages.0.Ul.2")
-                                }
-                            </li>
-                        </ul>
-                        <a href="https://www.apcoa.at/parken/wien/gumpendorfer-strasse-wien-apcoa/?utm_source=chatgpt.com" target='_blank'>
-                            View
-                        </a>
-                    </div>
-                    <div className={styles.garage}>
-                        <div className={styles.garageImg}>
-                            <Image src={garageTwo} alt='Apcoa Logo'></Image>
-                        </div>
-                        <h3>
-                            Garage MAHÜ77 (Best in Parking)
-                        </h3>
-                        <ul>
-                            <li>
-                                {
-                                    t("Garages.1.Ul.0")
-                                }
-                            </li>
-                            <li>
-                                {t("Garages.1.Ul.1")} <a href="tel:+4315131241" target='_blank'>004315131241</a>
-                            </li>
-                        </ul>
-                        <a href="http://bestinparking.at/garage/wien/damboeckgasse-4?utm_source=chatgpt.com" target='_blank'>
-                            View
-                        </a>
-                    </div>
-                    <div className={styles.garage}>
-                        <div className={styles.garageImg}>
-                            <Image src={garageThree} alt='Apcoa Logo'></Image>
-                        </div>
-                        <h3>
-                            Garage in der Rahlgasse GmbH
-                        </h3>
-                        <ul>
-                            <li>
-                                {
-                                    t("Garages.2.Ul.0")
-                                }
-                            </li>
-                            <li>
-                                {t("Garages.2.Ul.1")} <a href="tel:+4315872724" target='_blank'>004315872724</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div className={styles.directions}>
-                <h2>
+            <div className={styles.reachLink}>
+                <Link href={"/how-to-reach"} >
                     {
                         t("Directions.Heading")
                     }
-                </h2>
-                <div className={styles.wrapper}>
-                    <div className={styles.method}>
-                        <div className={styles.methodImg}>
-                            <FontAwesomeIcon icon={faTrainSubway} />
-                        </div>
-                        <h3>
-                            {
-                                t("Directions.0.H2")
-                            }
-                        </h3>
-                        <ul>
-                            <li>
-                                {
-                                    t("Directions.0.Ul.0")
-                                }
-                            </li>
-                            <li>
-                                {
-                                    t("Directions.0.Ul.1")
-                                }
-                            </li>
-                        </ul>
-                    </div>
-                    <div className={styles.method}>
-                        <div className={styles.methodImg}>
-                            <FontAwesomeIcon icon={faTrainTram} />
-                        </div>
-                        <h3>
-                            {
-                                t("Directions.1.H2")
-                            }
-                        </h3>
-                        <ul>
-                            <li>
-                                {
-                                    t("Directions.1.Ul.0")
-                                }
-                            </li>
-                        </ul>
-                    </div>
-                    <div className={styles.method}>
-                        <div className={styles.methodImg}>
-                            <FontAwesomeIcon icon={faBus} />
-                        </div>
-                        <h3>
-                            {
-                                t("Directions.2.H2")
-                            }
-                        </h3>
-                        <ul>
-                            <li>
-                                {
-                                    t("Directions.2.Ul.0")
-                                }
-                            </li>
-                            <li>
-                                {
-                                    t("Directions.2.Ul.1")
-                                }
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                </Link>
             </div>
-
         </div>
     </section>
   )

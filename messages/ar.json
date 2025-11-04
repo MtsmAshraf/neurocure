@@ -7,6 +7,7 @@
     "Pages": "صفحات",
     "ContactUs": "اتصل بنا",
     "AboutUs": "عنا",
+    "HowToReach": "كيفية الوصول",
     "Language": "اللغة"
   },
   "Footer": {
@@ -18,6 +19,7 @@
     "Services": "الخدمات",
     "ContactUs": "اتصل بنا",
     "AboutUs": "عنا",
+    "HowToReach": "كيفية الوصول",
     "Datenschutz": "سياساتنا"
   },
   "BookBtn": {
@@ -455,7 +457,7 @@
       "ViewButton": "عرض"
     },
     "Directions": {
-      "Heading": "وسائل النقل العامة",
+      "Heading": "كيفية الوصول",
       "0": {
         "H2": "المترو",
         "Ul": {

@@ -7,6 +7,7 @@
     "Pages": "Pages",
     "ContactUs": "Contact Us",
     "AboutUs": "About Us",
+    "HowToReach": "How to Reach",
     "Language": "Language"
   },
   "Footer": {
@@ -18,6 +19,7 @@
     "Services": "Services",
     "ContactUs": "Contact Us",
     "AboutUs": "About Us",
+    "HowToReach": "How to Reach",
     "Datenschutz": "Our Policies"
   },
   "BookBtn": {
@@ -456,7 +458,7 @@
       "ViewButton": "View"
     },
     "Directions": {
-      "Heading": "Public transportation",
+      "Heading": "How to reach",
       "0": {
         "H2": "Subway",
         "Ul": {

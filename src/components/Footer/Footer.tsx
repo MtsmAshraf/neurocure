@@ -61,6 +61,11 @@ const Footer = ({
                 </Link>
               </div>
               <div>
+                <Link href={"/how-to-reach"}>
+                  {t("HowToReach")}
+                </Link>
+              </div>
+              <div>
                 <Link href={"/datenschutz"}>
                   {t("Datenschutz")}
                 </Link>
