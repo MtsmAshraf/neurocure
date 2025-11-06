@@ -71,8 +71,8 @@
 .services.ar .card{
     /* flex-direction: row-reverse; */
 }
-.services .card:hover{
-    height: 450px;
+.services .card:has(button.clicked){
+    height: 500px;
 }
 .services .card .overlay{
     position: absolute;
@@ -87,13 +87,13 @@
     transition-duration: 0.3s;
     border-radius: 30px;
 }
-.services .card:hover .overlay{
+.services .card:has(button.clicked) .overlay{
     opacity: 0;
 }
 .services .card .cardIcon{
     transition: var(--main-transition);
     width: 50%;
-    height: 350px;
+    height: 400px;
     /* background-color: var(--bg-color); */
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@
     margin-left: auto;
     border-radius: 30px;
     overflow: hidden;
-    /* padding: 60px 0px; */
+    padding: 60px 0px 0px 0px ;
 }
 .services .card .cardIcon img{
     height: 100%;
@@ -110,7 +110,7 @@
     object-fit: contain;
     border-radius: 30px;
 }
-.services .card h4{
+.services .card button{
     font-weight: bold;
     /* margin-top: 20px;
     margin-bottom: 20px; */
@@ -130,26 +130,28 @@
     gap: 20px;
     z-index: 2;
 }
-.services .card:hover h4{
+.services .card:has(button.clicked) button{
     background-color: var(--main-trans-color);
     backdrop-filter: blur(20px);
     /* top: calc(100% - 110px); */
     height: 60px;
-    transform: translate(-50%,-100%);
+    /* transform: translate(-50%,-100%); */
 
 }
-.services .card h4 span{
+.services .card button span{
     font-size: 20px;
+    pointer-events: none;
 }
-.services .card h4 svg{
+.services .card button svg{
     color: var(--sec-color);
     font-size: 30px;
     background-color: #000;
     border: 1px solid #000;
     border-radius: 50%;
     transition: var(--main-transition);
+    pointer-events: none;
 }
-.services .card:hover h4 svg{
+.services .card:has(button.clicked) button svg{
     transform: rotateZ(180deg);
 }
 .services .card p{
@@ -177,7 +179,7 @@
     font-size: 22px;
     font-weight: bold;
 }
-.services .card:hover p{
+.services .card:has(button.clicked) p{
     transform: translateY(0%);
     filter: blur(0px);
 }
@@ -211,24 +213,25 @@
     .services .card{
         flex-direction: column;
     }
-    .services .card:hover{
+    .services .card:has(button.clicked){
         padding-top: 70px;
     }
     .services .card .cardIcon,
     .services .card p{
         width: 100%;
-        height: fit-content;
     }
-    .services .card:hover h4{
+    .services .card p{
+            height: fit-content;
+    }
+    .services .card:has(button.clicked) button{
         transform: translate(-50%, 0%);
     }
     
-    .services .card h4 span{
+    .services .card button span{
         font-size: 18px;
     }
     .services .card .cardIcon{
-        padding: 0;
-
+        padding: 20px 0px;
     }
     .services .card p span:first-child{
         display: none;

@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import MainHeading from '../MainHeading/MainHeading'
 import styles from "./services.module.css"
@@ -26,7 +27,6 @@ import migraine from "../../../public/images/migraine.png";
 import stroke from "../../../public/images/stroke.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons'
-import FaqComponent from '../Faq/Faq'
 
 const Services = ({
     lo
@@ -58,12 +58,12 @@ const Services = ({
                 <div className={styles.cards}>
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.0.Cards.0.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.0.Cards.0.Title")}:
@@ -79,12 +79,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.0.Cards.1.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.0.Cards.1.Title")}:
@@ -100,12 +100,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.0.Cards.2.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.0.Cards.2.Title")}:
@@ -121,12 +121,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.0.Cards.3.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.0.Cards.3.Title")}:
@@ -142,12 +142,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.0.Cards.4.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.0.Cards.4.Title")}:
@@ -163,12 +163,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.0.Cards.5.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.0.Cards.5.Title")}:
@@ -184,12 +184,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.0.Cards.6.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.0.Cards.6.Title")}:
@@ -205,12 +205,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.0.Cards.7.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.0.Cards.7.Title")}:
@@ -226,12 +226,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.0.Cards.8.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.0.Cards.8.Title")}:
@@ -257,12 +257,12 @@ const Services = ({
                         
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.1.Cards.0.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.1.Cards.0.Title")}:
@@ -278,12 +278,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.1.Cards.1.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.1.Cards.1.Title")}:
@@ -299,12 +299,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.1.Cards.2.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.1.Cards.2.Title")}:
@@ -329,12 +329,12 @@ const Services = ({
                 <div className={styles.cards}>
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.2.Cards.0.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.2.Cards.0.Title")}:
@@ -350,12 +350,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.2.Cards.1.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.2.Cards.1.Title")}:
@@ -380,12 +380,12 @@ const Services = ({
                 <div className={styles.cards}>
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.3.Cards.0.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.3.Cards.0.Title")}:
@@ -401,12 +401,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.3.Cards.1.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.3.Cards.1.Title")}:
@@ -422,12 +422,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.3.Cards.2.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.3.Cards.2.Title")}:
@@ -452,12 +452,12 @@ const Services = ({
                         
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.4.Cards.0.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.4.Cards.0.Title")}:
@@ -473,12 +473,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.4.Cards.1.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.4.Cards.1.Title")}:
@@ -494,12 +494,12 @@ const Services = ({
 
                     <div className={styles.card}>
                         <div className={styles.overlay}></div>
-                        <h4>
+                        <button onClick={(e: HTMLElement | any) => {e.target.classList.toggle(styles.clicked)}}>
                             <span>
                                 {t("Sections.4.Cards.2.Title")}
                             </span>
                             <FontAwesomeIcon icon={faChevronCircleDown}/>
-                        </h4>
+                        </button>
                         <p>
                             <span>
                                 {t("Sections.4.Cards.2.Title")}:
