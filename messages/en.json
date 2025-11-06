@@ -433,6 +433,13 @@
   },
   "Contact": {
     "Heading": "Contact Us",
+    "Doctor": {
+      "Name": "Dr. Muhammad Yacob"
+    },
+    "BookLinks": {
+      "Book": "Book Appointment",
+      "Private": "Private Appointment"
+    },
     "Hours": {
       "0": {
         "Day": "Monday",

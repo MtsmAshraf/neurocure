@@ -35,12 +35,20 @@ const Contact = ({
             <div className={styles.img}>
                 <Image src={doctorImg} alt='Dr. Muhammed Yacob Image'></Image>
                 <h3>
-                    Dr. Muhammad Yacob
+                    {
+                        t("Doctor.Name")
+                    }
                 </h3>
             </div>
             <div className={styles.bookLinks}>
-                <Link href="/">Book Appointment</Link>
-                <Link href="/">Private Appointment</Link>
+                <Link href="/">
+                    {
+                        t("BookLinks.Book")
+                    }</Link>
+                <Link href="/">
+                    {
+                        t("BookLinks.Private")
+                    }</Link>
             </div>
             <div className={styles.info}>
                 <div className={styles.hours}>

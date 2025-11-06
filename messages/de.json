@@ -433,16 +433,27 @@
   },
   "Contact": {
     "Heading": "Kontakt",
+    "Doctor": {
+      "Name": "Dr. Muhammad Yacob"
+    },
+    "BookLinks": {
+      "Book": "Termin buchen",
+      "Private": "Privater Termin"
+    },
     "Hours": {
       "0": {
         "Day": "Monday",
         "From": "from",
-        "To": "to"
+        "To": "to",
+        "AM": "AM",
+        "PM": "PM"
       },
       "1": {
         "Day": "Tuesday, Wendesday and Thursday",
         "From": "from",
-        "To": "to"
+        "To": "to",
+        "AM": "AM",
+        "PM": "PM"
       }
     },
     "Address": "Gumpendorferstraße 59-61/2, 1. Stock, 1060 Wien, Österreich",
@@ -492,9 +503,9 @@
         }
       }
     },
-      "MoreLinks": {
-        "HowToReach": "Weg zur Klinik",
-        "Policies": "Unsere Richtlinien"
-      }
+    "MoreLinks": {
+      "HowToReach": "Weg zur Klinik",
+      "Policies": "Unsere Richtlinien"
+    }
   }
 }
