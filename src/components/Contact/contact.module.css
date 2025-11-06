@@ -240,6 +240,7 @@
     font-size: 20px;
     transition: var(--main-transition);
     box-shadow: var(--main-shadow);
+    text-align: center;
 }
 
 .contact > div:nth-child(2) .moreLinks a:hover{
@@ -290,5 +291,8 @@
     }
     .contact > div:nth-child(2) .bookLinks{
         flex-direction: column;
+    }
+    .contact > div:nth-child(2) .moreLinks a{
+        font-size: 16px;
     }
 }
