@@ -5,8 +5,9 @@ import SocialUl from '../SocialUl/SocialUl'
 import { useTranslations } from 'next-intl'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faLocationPin } from '@fortawesome/free-solid-svg-icons'
-
+import doctorImg from "../../../public/images/doctor-yacob.png"
 import { Link } from '@/i18n/navigation'
+import Image from 'next/image'
 
 const Contact = ({
     lo
@@ -31,6 +32,12 @@ const Contact = ({
             </h2>
         </MainHeading>
         <div className="container">
+            <div className={styles.img}>
+                <Image src={doctorImg} alt='Dr. Muhammed Yacob Image'></Image>
+                <h3>
+                    Dr. Muhammad Yacob
+                </h3>
+            </div>
             <div className={styles.bookLinks}>
                 <a href="/">Book Appointment</a>
                 <a href="/">Private Appointment</a>

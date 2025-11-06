@@ -25,6 +25,34 @@
 .contact > div:nth-child(2) > div{
     width: 100%;
 }
+.contact > div:nth-child(2) .img{
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact > div:nth-child(2) .img img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: var(--sec-shadow);
+    border: 1px solid var(--main-color);
+}
+.contact > div:nth-child(2) .img h3{
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: var(--main-color);
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: var(--main-shadow);
+    color: #fff;
+
+}
 .contact > div:nth-child(2) .bookLinks{
     max-width: 100%;
     display: flex;
@@ -88,6 +116,7 @@
     border: 1px solid #ccc;
     box-shadow: var(--main-shadow);
     transition: var(--main-transition);
+    width: 100%;
 }
 .contact > div:nth-child(2) .info .address:hover{
     background-color: var(--main-color);
