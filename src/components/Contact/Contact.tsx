@@ -39,8 +39,8 @@ const Contact = ({
                 </h3>
             </div>
             <div className={styles.bookLinks}>
-                <a href="/">Book Appointment</a>
-                <a href="/">Private Appointment</a>
+                <Link href="/">Book Appointment</Link>
+                <Link href="/">Private Appointment</Link>
             </div>
             <div className={styles.info}>
                 <div className={styles.hours}>
