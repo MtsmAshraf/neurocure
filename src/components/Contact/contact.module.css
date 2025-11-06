@@ -291,8 +291,13 @@
     }
     .contact > div:nth-child(2) .info .hours > span{
         /* width: 100px !important; */
-        aspect-ratio: 1
-        ;
+        aspect-ratio: 1;
+    }       
+    .contact.ar > div:nth-child(2) .info .hours .details div:nth-child(2){
+        padding-left: 0;
+        border-left: none;
+        padding-right: 0;
+        border-right: none;
     }
     .contact > div:nth-child(2) .bookLinks{
         flex-direction: column;
