@@ -68,6 +68,7 @@
     transition: var(--main-transition);
     box-shadow: var(--main-shadow);
     border: 1px solid #ddd;
+    text-align: center;
 }
 .contact > div:nth-child(2) .bookLinks a:nth-child(1){
     background-color: #fff;
@@ -300,7 +301,10 @@
         border-right: none;
     }
     .contact > div:nth-child(2) .bookLinks{
-        flex-direction: column;
+        /* flex-direction: column; */
+    }
+    .contact > div:nth-child(2) .bookLinks a{
+        font-size: 16px;
     }
     .contact > div:nth-child(2) .moreLinks a{
         font-size: 16px;
