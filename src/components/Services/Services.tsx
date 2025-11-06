@@ -26,6 +26,7 @@ import migraine from "../../../public/images/migraine.png";
 import stroke from "../../../public/images/stroke.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons'
+import FaqComponent from '../Faq/Faq'
 
 const Services = ({
     lo
