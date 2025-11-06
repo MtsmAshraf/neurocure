@@ -25,6 +25,37 @@
 .contact > div:nth-child(2) > div{
     width: 100%;
 }
+.contact > div:nth-child(2) .bookLinks{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.contact > div:nth-child(2) .bookLinks a{
+    border-radius: 30px;
+    padding: 10px 30px;
+    max-width: 100%;
+    font-size: 20px;
+    transition: var(--main-transition);
+    box-shadow: var(--main-shadow);
+    border: 1px solid #ddd;
+}
+.contact > div:nth-child(2) .bookLinks a:nth-child(1){
+    background-color: #fff;
+    color: #000;
+}
+.contact > div:nth-child(2) .bookLinks a:nth-child(2){
+    /* background-image: var(--main-gradient); */
+    background-color: var(--third-color);
+    color: #fff;
+}
+.contact > div:nth-child(2) .bookLinks a:hover{
+    background-color: var(--main-color);
+    box-shadow: var(--sec-shadow);
+    border: 1px solid var(--main-color);
+    color: #fff;
+}
 .contact > div:nth-child(2) .info{
     display: flex;
     flex-direction: column;
@@ -33,6 +64,9 @@
     max-width: fit-content;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
 
 }
 .contact > div:nth-child(2) .info > div{
@@ -45,7 +79,19 @@
 }
 .contact > div:nth-child(2) .info .address{
     display: flex;
+    justify-content: space-between;
     gap: 20px;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    box-shadow: var(--main-shadow);
+    transition: var(--main-transition);
+}
+.contact > div:nth-child(2) .info .address:hover{
+    background-color: var(--main-color);
+    box-shadow: var(--sec-shadow);
 }
 .contact > div:nth-child(2) .info .address span{
     background-color: var(--sec-color);
@@ -61,13 +107,78 @@
 .contact > div:nth-child(2) .info .address address{
     border-left: 1px solid #c8c5cd;
     padding-left: 20px;
+    transition: var(--main-transition);
     place-content: center;
+}
+.contact > div:nth-child(2) .info .address:hover address{
+    border-left: 1px solid #000;
 }
 .contact.ar > div:nth-child(2) .info .address address{
     border-left: none;
     border-right: 1px solid #c8c5cd;
     padding-left: 0px;
     padding-right: 20px;
+}
+.contact.ar > div:nth-child(2) .info .address:hover address{
+    border-left: none;
+    border-right: 1px solid #000;
+}
+.contact > div:nth-child(2) .info .hours{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: var(--main-shadow);
+    width: 100%;
+}
+.contact > div:nth-child(2) .info .hours > span{
+    background-color: var(--sec-color);
+    border: 1px solid #000;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact > div:nth-child(2) .info .hours .details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+}
+.contact.ar > div:nth-child(2) .info .hours .details{
+    padding-left: none;
+    border-left: none;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+.contact > div:nth-child(2) .info .hours div:nth-child(2){
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+}
+.contact.ar > div:nth-child(2) .info .hours div:nth-child(2){
+    padding-left: none;
+    border-left: none;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+.contact > div:nth-child(2) .info .hours h4{
+    background-color: var(--sec-color);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    color: #000;
+}
+.contact.ar > div:nth-child(2) .info .hours .details span{
+    /* direction: rtl !important;
+    background-color: red; */
 }
 .contact .info .location{
     height: 400px;
@@ -81,14 +192,16 @@
     width: 700px;
     max-width: 100%;
 }
-.contact > div:nth-child(2) .reachLink{
+.contact > div:nth-child(2) .moreLinks{
     width: fit-content;
-    margin: 10px auto;
+    margin: 20px auto;
     border-top: 1px solid #ccc;
     padding-top: 20px;
     max-width: 100%;
+    display: flex;
+    gap: 20px;
 }
-.contact > div:nth-child(2) .reachLink a{
+.contact > div:nth-child(2) .moreLinks a{
     border-radius: 30px;
     background-color: var(--sec-color);
     color: #000;
@@ -100,47 +213,53 @@
     box-shadow: var(--main-shadow);
 }
 
-.contact > div:nth-child(2) .reachLink a:hover{
+.contact > div:nth-child(2) .moreLinks a:hover{
     background-color: var(--main-color);
     border: 1px solid var(--main-color);
     box-shadow: var(--sec-shadow);
+    color: #fff;
+}
+.contact .socials{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
 }
 @media (max-width: 992px) {
-    .contact > div:nth-child(2){
-        /* flex-direction: column; */
-        gap: 40px;
-    }
     .contact > div:nth-child(2) .info{
         max-width: 100%;
         align-items: center;
-    }
-    .contact > div:nth-child(2) .info > div{
-        /* width: 100%; */
     }
     .contact > div:nth-child(2) .info .address{
         align-items: center;
     }
 
     .contact > div:nth-child(2) .location{
-        /* height: 600px !important; */
         max-width: 100%;
-        /* width: 70%; */
+    }
+}
+@media (max-width: 767px) {
+    .contact > div:nth-child(2) .info .hours .details{
+        flex-direction: column;
+        align-items: unset;
+    }
+    .contact > div:nth-child(2) .info .hours .details div:nth-child(2){
+        padding-left: 0;
+        border-left: 0;
     }
 }
 @media (max-width: 600px) {
-    .contact > div:nth-child(2){
-        gap: 40px;
-    }
     .contact > div:nth-child(2) .info{
         max-width: 100%;
         align-items: center;
     }
     .contact > div:nth-child(2) .location{
-        /* height: 600px !important; */
         max-width: 100%;
         width: 100%;
     }
     .contact > div:nth-child(2) .info .address span svg{
         width: 100px !important;
+    }
+    .contact > div:nth-child(2) .bookLinks{
+        flex-direction: column;
     }
 }

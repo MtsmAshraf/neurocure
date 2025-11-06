@@ -433,6 +433,22 @@
   },
   "Contact": {
     "Heading": "Contact Us",
+    "Hours": {
+      "0": {
+        "Day": "Monday",
+        "From": "from",
+        "To": "to",
+        "AM": "AM",
+        "PM": "PM"
+      },
+      "1": {
+        "Day": "Tuesday, Wendesday and Thursday",
+        "From": "from",
+        "To": "to",
+        "AM": "AM",
+        "PM": "PM"
+      }
+    },
     "Address": "Gumpendorferstraße 59-61/2/ Stock1- 1st Floor 1060, Vienna, Austria",
     "Garages": {
       "Heading": "Garage/parking options near the clinic address",
@@ -479,6 +495,10 @@
           "1": "Brückengasse – Lines: 57A - 2-3 minutes (walking)"
         }
       }
+    },
+    "MoreLinks": {
+      "HowToReach": "How to reach",
+      "Policies": "Our Policies"
     }
   }
 }

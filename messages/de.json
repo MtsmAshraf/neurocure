@@ -433,6 +433,18 @@
   },
   "Contact": {
     "Heading": "Kontakt",
+    "Hours": {
+      "0": {
+        "Day": "Monday",
+        "From": "from",
+        "To": "to"
+      },
+      "1": {
+        "Day": "Tuesday, Wendesday and Thursday",
+        "From": "from",
+        "To": "to"
+      }
+    },
     "Address": "Gumpendorferstraße 59-61/2, 1. Stock, 1060 Wien, Österreich",
     "Garages": {
       "Heading": "Parkmöglichkeiten in der Nähe der Klinikadresse",
@@ -479,6 +491,10 @@
           "1": "Brückengasse – Linie: 57A – 2–3 Minuten zu Fuß"
         }
       }
-    }
+    },
+      "MoreLinks": {
+        "HowToReach": "Weg zur Klinik",
+        "Policies": "Unsere Richtlinien"
+      }
   }
 }

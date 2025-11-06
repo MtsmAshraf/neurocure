@@ -4,7 +4,7 @@ import MainHeading from '../MainHeading/MainHeading'
 import SocialUl from '../SocialUl/SocialUl'
 import { useTranslations } from 'next-intl'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationPin } from '@fortawesome/free-solid-svg-icons'
+import { faClock, faLocationPin } from '@fortawesome/free-solid-svg-icons'
 
 import { Link } from '@/i18n/navigation'
 
@@ -31,14 +31,39 @@ const Contact = ({
             </h2>
         </MainHeading>
         <div className="container">
+            <div className={styles.bookLinks}>
+                <a href="/">Book Appointment</a>
+                <a href="/">Private Appointment</a>
+            </div>
             <div className={styles.info}>
-                <div>
-                    <SocialUl />
+                <div className={styles.hours}>
+                    <span>
+                        <FontAwesomeIcon icon={faClock}></FontAwesomeIcon>
+                    </span>
+                    <div className={styles.details}>
+                        <div>
+                            <h4>
+                                {
+                                    t("Hours.0.Day")
+                                }
+                            </h4>
+                            <span>
+                                {t("Hours.0.From")} 1:00 {t("Hours.0.PM")} {t("Hours.0.To")} 6:00 {t("Hours.0.PM")}
+                            </span>
+                        </div>
+                        <div>
+                            <h4>
+                                {
+                                    t("Hours.1.Day")
+                                }
+                            </h4>
+                            <span>
+                                {t("Hours.1.From")} 10:00 {t("Hours.1.AM")} {t("Hours.1.To")} 3:00 {t("Hours.1.PM")}
+                            </span>
+                        </div>
+                    </div>
                 </div>
-                <div className={styles.location}>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.4693648411217!2d16.354313599999998!3d48.197574599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d078f2ac983c3%3A0x8633da6e859b51f9!2sGumpendorfer%20Str.%2059-61%2F2%2C%201060%20Wien%2C%20Austria!5e0!3m2!1sen!2seg!4v1762085964859!5m2!1sen!2seg" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div className={styles.address}>
+                <a href='https://maps.app.goo.gl/8RWDpYtJYbeuGt69A' target='_blank' className={styles.address}>
                     <span>
                         <FontAwesomeIcon icon={faLocationPin}></FontAwesomeIcon>
                     </span>
@@ -48,14 +73,22 @@ const Contact = ({
                         } */}
                         Gumpendorferstraße 59-61/2/ Stock1- 1st Floor 1060, Vienna, Austria
                     </address>
-                </div>
+                </a>
             </div>
-            <div className={styles.reachLink}>
+            <div className={styles.moreLinks}>
                 <Link href={"/how-to-reach"} >
                     {
-                        t("Directions.Heading")
+                        t("MoreLinks.HowToReach")
                     }
                 </Link>
+                <Link href={"/datenschutz"} >
+                    {
+                        t("MoreLinks.Policies")
+                    }
+                </Link>
+            </div>
+            <div className={styles.socials}>
+                <SocialUl />
             </div>
         </div>
     </section>
