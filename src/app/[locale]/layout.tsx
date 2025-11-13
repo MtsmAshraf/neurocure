@@ -10,6 +10,7 @@ import icon from "./favicon.ico"
 // import Script from "next/script";
 import { El_Messiri } from "next/font/google";
 import Contact from "@/components/Contact/Contact";
+import BookBtn from "@/components/BookBtn/BookBtn";
 // import FloatingContact from "@/components/FloatingContact/FloatingContact";
 // import FloatingBooking from "@/components/FloatingBooking/FloatingBooking";
 // import Prices from "@/components/Prices/Prices";
@@ -72,6 +73,7 @@ export default async function RootLayout({
           {/* <FloatingBooking />
           <FloatingContact /> */}
           <Contact lo={locale}  />
+          <BookBtn lo={locale}/>
           <Footer lo={locale}></Footer>
         </NextIntlClientProvider>
       </body>

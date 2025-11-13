@@ -1,0 +1,36 @@
+.bookBtn{
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-image: var(--main-gradient);
+    color: #fff;
+    transition: var(--main-transition);
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-family: inherit;
+    z-index: 20;
+}
+
+.bookBtn:hover,
+.bookBtn:focus,
+.bookBtn:focus-visible{
+    background-image: none;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.bookBtn.ar{
+    right: unset;
+    left: 40px;
+}
+@media (max-width: 600px) {
+    .bookBtn{
+        bottom: 30px;
+        right: 20px;
+    }
+    .bookBtn.ar{
+        left: 20px;
+    }
+}

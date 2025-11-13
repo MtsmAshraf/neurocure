@@ -1,31 +1,32 @@
-"use client"
-import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useTranslations } from "next-intl";
-import { useDispatch } from 'react-redux';
-import { toggleShowVerticalNav } from '@/store/showVerticalNavSlice';
+/* First make sure that you have installed the package */
 
+/* If you are using yarn */
+// yarn add @calcom/embed-react
 
-export default function BookBtn() {
-
-  const t = useTranslations("BookBtn")
-
-    const dispatch = useDispatch();
-
-  return <button
-    className={"book-btn main"}
-    onClick={() => {
-      dispatch(toggleShowVerticalNav());
-      console.log("CLICKED")
-    }}
-  >
-    <FontAwesomeIcon icon={faCalendarDays} />
-    <span>
-      {
-        t("Text")
-      }
-    </span>
-  </button>;
-};
+/* If you are using npm */
+// npm install @calcom/embed-react
   
+"use client"
+import styles from "./book-btn.module.css"
+import { getCalApi } from "@calcom/embed-react";
+import { useTranslations } from "next-intl";
+import { useEffect } from "react";
+export default function BookBtn({
+  lo
+} : {
+  lo: string
+}) {
+  const t = useTranslations("BookBtn")
+  useEffect(() => {
+    (async function () {
+      const cal = await getCalApi({"namespace":"book-appointment"});
+      cal("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+    })();
+  }, [])
+  return <button className={lo === "ar" ? styles.ar + " " + styles.bookBtn : styles.bookBtn} data-cal-namespace="book-appointment"
+    data-cal-link="neurocure/book-appointment"
+    
+    data-cal-config='{"layout":"month_view"}'
+  >{t("Text")}</button>;
+};
   
